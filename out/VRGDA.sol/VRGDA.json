@@ -1,0 +1,1351 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "sold",
+          "type": "int256"
+        }
+      ],
+      "name": "getTargetSaleTime",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "timeSinceStart",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "sold",
+          "type": "uint256"
+        }
+      ],
+      "name": "getVRGDAPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "targetPrice",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getTargetSaleTime(int256)": "6d9d33b7",
+    "getVRGDAPrice(int256,uint256)": "f466d4ab",
+    "targetPrice()": "dc38679c"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"sold\",\"type\":\"int256\"}],\"name\":\"getTargetSaleTime\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"timeSinceStart\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"sold\",\"type\":\"uint256\"}],\"name\":\"getVRGDAPrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"targetPrice\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"transmissions11 <t11s@paradigm.xyz>FrankieIsLost <frankie@paradigm.xyz>\",\"kind\":\"dev\",\"methods\":{\"constructor\":{\"params\":{\"_priceDecayPercent\":\"The percent price decays per unit of time with no sales, scaled by 1e18.\",\"_targetPrice\":\"The target price for a token if sold on pace, scaled by 1e18.\"}},\"getTargetSaleTime(int256)\":{\"details\":\"Given a number of tokens sold, return the target time that number of tokens should be sold by.\",\"params\":{\"sold\":\"A number of tokens sold, scaled by 1e18, to get the corresponding target sale time for.\"},\"returns\":{\"_0\":\"The target time the tokens should be sold by, scaled by 1e18, where the time is relative, such that 0 means the tokens should be sold immediately when the VRGDA begins.\"}},\"getVRGDAPrice(int256,uint256)\":{\"params\":{\"sold\":\"The total number of tokens that have been sold so far.\",\"timeSinceStart\":\"Time passed since the VRGDA began, scaled by 1e18.\"},\"returns\":{\"_0\":\"The price of a token according to VRGDA, scaled by 1e18.\"}}},\"stateVariables\":{\"decayConstant\":{\"details\":\"Precomputed constant that allows us to rewrite a pow() as an exp().Represented as an 18 decimal fixed point number.\"},\"targetPrice\":{\"details\":\"Represented as an 18 decimal fixed point number.\"}},\"title\":\"Variable Rate Gradual Dutch Auction\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"constructor\":{\"notice\":\"Sets target price and per time unit price decay for the VRGDA.\"},\"getVRGDAPrice(int256,uint256)\":{\"notice\":\"Calculate the price of a token according to the VRGDA formula.\"},\"targetPrice()\":{\"notice\":\"Target price for a token, to be scaled according to sales pace.\"}},\"notice\":\"Sell tokens roughly according to an issuance schedule.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/VRGDAs/src/VRGDA.sol\":\"VRGDA\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"none\"},\"optimizer\":{\"enabled\":true,\"runs\":1000000},\"remappings\":[\":VRGDAs/=lib/VRGDAs/src/\",\":chainlink/=lib/chainlink/contracts/src/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":goo-issuance/=lib/goo-issuance/src/\",\":solmate/=lib/solmate/src/\"]},\"sources\":{\"lib/VRGDAs/src/VRGDA.sol\":{\"keccak256\":\"0x1ca4666ef37df0cca232786762b6ffa2af930ba204bba682ecb466fc684ea8c2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://adb99116ae0b333dd51b214579d887274e06090e7e815272dfb225dc2990feca\",\"dweb:/ipfs/QmRoYSor775pZqxbfDSj4joVJ5PrYxiirVGGty7neABYM4\"]},\"lib/solmate/src/utils/SignedWadMath.sol\":{\"keccak256\":\"0x808fb3b247efd78084a545c16ad58eae40dc98b346c2e29b6a9d223931252d6c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c36d90560c9623322c2703301914471e7a410ec3ac104743d5465005de3e189d\",\"dweb:/ipfs/QmVJZwf9Vei9AsgEn6j9ESYyKNPFjccFvBjkJeNhUU92UL\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.13+commit.abaa5c0e"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "int256",
+              "name": "sold",
+              "type": "int256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getTargetSaleTime",
+          "outputs": [
+            {
+              "internalType": "int256",
+              "name": "",
+              "type": "int256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "int256",
+              "name": "timeSinceStart",
+              "type": "int256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "sold",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getVRGDAPrice",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "targetPrice",
+          "outputs": [
+            {
+              "internalType": "int256",
+              "name": "",
+              "type": "int256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "constructor": {
+            "params": {
+              "_priceDecayPercent": "The percent price decays per unit of time with no sales, scaled by 1e18.",
+              "_targetPrice": "The target price for a token if sold on pace, scaled by 1e18."
+            }
+          },
+          "getTargetSaleTime(int256)": {
+            "details": "Given a number of tokens sold, return the target time that number of tokens should be sold by.",
+            "params": {
+              "sold": "A number of tokens sold, scaled by 1e18, to get the corresponding target sale time for."
+            },
+            "returns": {
+              "_0": "The target time the tokens should be sold by, scaled by 1e18, where the time is relative, such that 0 means the tokens should be sold immediately when the VRGDA begins."
+            }
+          },
+          "getVRGDAPrice(int256,uint256)": {
+            "params": {
+              "sold": "The total number of tokens that have been sold so far.",
+              "timeSinceStart": "Time passed since the VRGDA began, scaled by 1e18."
+            },
+            "returns": {
+              "_0": "The price of a token according to VRGDA, scaled by 1e18."
+            }
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "constructor": {
+            "notice": "Sets target price and per time unit price decay for the VRGDA."
+          },
+          "getVRGDAPrice(int256,uint256)": {
+            "notice": "Calculate the price of a token according to the VRGDA formula."
+          },
+          "targetPrice()": {
+            "notice": "Target price for a token, to be scaled according to sales pace."
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":VRGDAs/=lib/VRGDAs/src/",
+        ":chainlink/=lib/chainlink/contracts/src/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":goo-issuance/=lib/goo-issuance/src/",
+        ":solmate/=lib/solmate/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 1000000
+      },
+      "metadata": {
+        "bytecodeHash": "none"
+      },
+      "compilationTarget": {
+        "lib/VRGDAs/src/VRGDA.sol": "VRGDA"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/VRGDAs/src/VRGDA.sol": {
+        "keccak256": "0x1ca4666ef37df0cca232786762b6ffa2af930ba204bba682ecb466fc684ea8c2",
+        "urls": [
+          "bzz-raw://adb99116ae0b333dd51b214579d887274e06090e7e815272dfb225dc2990feca",
+          "dweb:/ipfs/QmRoYSor775pZqxbfDSj4joVJ5PrYxiirVGGty7neABYM4"
+        ],
+        "license": "MIT"
+      },
+      "lib/solmate/src/utils/SignedWadMath.sol": {
+        "keccak256": "0x808fb3b247efd78084a545c16ad58eae40dc98b346c2e29b6a9d223931252d6c",
+        "urls": [
+          "bzz-raw://c36d90560c9623322c2703301914471e7a410ec3ac104743d5465005de3e189d",
+          "dweb:/ipfs/QmVJZwf9Vei9AsgEn6j9ESYyKNPFjccFvBjkJeNhUU92UL"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "lib/VRGDAs/src/VRGDA.sol",
+    "id": 252,
+    "exportedSymbols": {
+      "VRGDA": [
+        251
+      ],
+      "toWadUnsafe": [
+        26575
+      ],
+      "unsafeWadMul": [
+        26607
+      ],
+      "wadExp": [
+        26836
+      ],
+      "wadLn": [
+        27054
+      ],
+      "wadMul": [
+        26630
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:3121:2",
+    "nodes": [
+      {
+        "id": 168,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:2",
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 174,
+        "nodeType": "ImportDirective",
+        "src": "58:97:2",
+        "absolutePath": "lib/solmate/src/utils/SignedWadMath.sol",
+        "file": "solmate/utils/SignedWadMath.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 252,
+        "sourceUnit": 27067,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 169,
+              "name": "wadExp",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26836,
+              "src": "66:6:2",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 170,
+              "name": "wadLn",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 27054,
+              "src": "74:5:2",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 171,
+              "name": "wadMul",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26630,
+              "src": "81:6:2",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 172,
+              "name": "unsafeWadMul",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26607,
+              "src": "89:12:2",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 173,
+              "name": "toWadUnsafe",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26575,
+              "src": "103:11:2",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 251,
+        "nodeType": "ContractDefinition",
+        "src": "368:2784:2",
+        "nodes": [
+          {
+            "id": 178,
+            "nodeType": "VariableDeclaration",
+            "src": "724:35:2",
+            "constant": false,
+            "documentation": {
+              "id": 176,
+              "nodeType": "StructuredDocumentation",
+              "src": "582:137:2",
+              "text": "@notice Target price for a token, to be scaled according to sales pace.\n @dev Represented as an 18 decimal fixed point number."
+            },
+            "functionSelector": "dc38679c",
+            "mutability": "immutable",
+            "name": "targetPrice",
+            "nameLocation": "748:11:2",
+            "scope": 251,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_int256",
+              "typeString": "int256"
+            },
+            "typeName": {
+              "id": 177,
+              "name": "int256",
+              "nodeType": "ElementaryTypeName",
+              "src": "724:6:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_int256",
+                "typeString": "int256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 181,
+            "nodeType": "VariableDeclaration",
+            "src": "909:39:2",
+            "constant": false,
+            "documentation": {
+              "id": 179,
+              "nodeType": "StructuredDocumentation",
+              "src": "766:138:2",
+              "text": "@dev Precomputed constant that allows us to rewrite a pow() as an exp().\n @dev Represented as an 18 decimal fixed point number."
+            },
+            "mutability": "immutable",
+            "name": "decayConstant",
+            "nameLocation": "935:13:2",
+            "scope": 251,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_int256",
+              "typeString": "int256"
+            },
+            "typeName": {
+              "id": 180,
+              "name": "int256",
+              "nodeType": "ElementaryTypeName",
+              "src": "909:6:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_int256",
+                "typeString": "int256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 209,
+            "nodeType": "FunctionDefinition",
+            "src": "1231:297:2",
+            "body": {
+              "id": 208,
+              "nodeType": "Block",
+              "src": "1291:237:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 191,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 189,
+                      "name": "targetPrice",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 178,
+                      "src": "1301:11:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_int256",
+                        "typeString": "int256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 190,
+                      "name": "_targetPrice",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 184,
+                      "src": "1315:12:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_int256",
+                        "typeString": "int256"
+                      }
+                    },
+                    "src": "1301:26:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "id": 192,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1301:26:2"
+                },
+                {
+                  "expression": {
+                    "id": 199,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 193,
+                      "name": "decayConstant",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 181,
+                      "src": "1338:13:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_int256",
+                        "typeString": "int256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "commonType": {
+                            "typeIdentifier": "t_int256",
+                            "typeString": "int256"
+                          },
+                          "id": 197,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "hexValue": "31653138",
+                            "id": 195,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1360:4:2",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                              "typeString": "int_const 1000000000000000000"
+                            },
+                            "value": "1e18"
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "-",
+                          "rightExpression": {
+                            "id": 196,
+                            "name": "_priceDecayPercent",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 186,
+                            "src": "1367:18:2",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_int256",
+                              "typeString": "int256"
+                            }
+                          },
+                          "src": "1360:25:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_int256",
+                            "typeString": "int256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_int256",
+                            "typeString": "int256"
+                          }
+                        ],
+                        "id": 194,
+                        "name": "wadLn",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 27054,
+                        "src": "1354:5:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_pure$_t_int256_$returns$_t_int256_$",
+                          "typeString": "function (int256) pure returns (int256)"
+                        }
+                      },
+                      "id": 198,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1354:32:2",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_int256",
+                        "typeString": "int256"
+                      }
+                    },
+                    "src": "1338:48:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "id": 200,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1338:48:2"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        },
+                        "id": 204,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "id": 202,
+                          "name": "decayConstant",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 181,
+                          "src": "1472:13:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_int256",
+                            "typeString": "int256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "<",
+                        "rightExpression": {
+                          "hexValue": "30",
+                          "id": 203,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1488:1:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "src": "1472:17:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "4e4f4e5f4e454741544956455f44454341595f434f4e5354414e54",
+                        "id": 205,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1491:29:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_5cdf9122426f15ed01aca3ede9c6bb62ffa88d2271c7acb09d4af0813c4b83f0",
+                          "typeString": "literal_string \"NON_NEGATIVE_DECAY_CONSTANT\""
+                        },
+                        "value": "NON_NEGATIVE_DECAY_CONSTANT"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_5cdf9122426f15ed01aca3ede9c6bb62ffa88d2271c7acb09d4af0813c4b83f0",
+                          "typeString": "literal_string \"NON_NEGATIVE_DECAY_CONSTANT\""
+                        }
+                      ],
+                      "id": 201,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "1464:7:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 206,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1464:57:2",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 207,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1464:57:2"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 182,
+              "nodeType": "StructuredDocumentation",
+              "src": "955:271:2",
+              "text": "@notice Sets target price and per time unit price decay for the VRGDA.\n @param _targetPrice The target price for a token if sold on pace, scaled by 1e18.\n @param _priceDecayPercent The percent price decays per unit of time with no sales, scaled by 1e18."
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 187,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 184,
+                  "mutability": "mutable",
+                  "name": "_targetPrice",
+                  "nameLocation": "1250:12:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 209,
+                  "src": "1243:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 183,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1243:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 186,
+                  "mutability": "mutable",
+                  "name": "_priceDecayPercent",
+                  "nameLocation": "1271:18:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 209,
+                  "src": "1264:25:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 185,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1264:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1242:48:2"
+            },
+            "returnParameters": {
+              "id": 188,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1291:0:2"
+            },
+            "scope": 251,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "id": 242,
+            "nodeType": "FunctionDefinition",
+            "src": "2025:633:2",
+            "body": {
+              "id": 241,
+              "nodeType": "Block",
+              "src": "2123:535:2",
+              "statements": [
+                {
+                  "id": 240,
+                  "nodeType": "UncheckedBlock",
+                  "src": "2133:519:2",
+                  "statements": [
+                    {
+                      "expression": {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "id": 222,
+                                "name": "targetPrice",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 178,
+                                "src": "2210:11:2",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_int256",
+                                  "typeString": "int256"
+                                }
+                              },
+                              {
+                                "arguments": [
+                                  {
+                                    "arguments": [
+                                      {
+                                        "id": 225,
+                                        "name": "decayConstant",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 181,
+                                        "src": "2243:13:2",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_int256",
+                                          "typeString": "int256"
+                                        }
+                                      },
+                                      {
+                                        "commonType": {
+                                          "typeIdentifier": "t_int256",
+                                          "typeString": "int256"
+                                        },
+                                        "id": 234,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftExpression": {
+                                          "id": 226,
+                                          "name": "timeSinceStart",
+                                          "nodeType": "Identifier",
+                                          "overloadedDeclarations": [],
+                                          "referencedDeclaration": 212,
+                                          "src": "2567:14:2",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_int256",
+                                            "typeString": "int256"
+                                          }
+                                        },
+                                        "nodeType": "BinaryOperation",
+                                        "operator": "-",
+                                        "rightExpression": {
+                                          "arguments": [
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "commonType": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                  },
+                                                  "id": 231,
+                                                  "isConstant": false,
+                                                  "isLValue": false,
+                                                  "isPure": false,
+                                                  "lValueRequested": false,
+                                                  "leftExpression": {
+                                                    "id": 229,
+                                                    "name": "sold",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 214,
+                                                    "src": "2614:4:2",
+                                                    "typeDescriptions": {
+                                                      "typeIdentifier": "t_uint256",
+                                                      "typeString": "uint256"
+                                                    }
+                                                  },
+                                                  "nodeType": "BinaryOperation",
+                                                  "operator": "+",
+                                                  "rightExpression": {
+                                                    "hexValue": "31",
+                                                    "id": 230,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": true,
+                                                    "kind": "number",
+                                                    "lValueRequested": false,
+                                                    "nodeType": "Literal",
+                                                    "src": "2621:1:2",
+                                                    "typeDescriptions": {
+                                                      "typeIdentifier": "t_rational_1_by_1",
+                                                      "typeString": "int_const 1"
+                                                    },
+                                                    "value": "1"
+                                                  },
+                                                  "src": "2614:8:2",
+                                                  "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                  }
+                                                }
+                                              ],
+                                              "expression": {
+                                                "argumentTypes": [
+                                                  {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                  }
+                                                ],
+                                                "id": 228,
+                                                "name": "toWadUnsafe",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 26575,
+                                                "src": "2602:11:2",
+                                                "typeDescriptions": {
+                                                  "typeIdentifier": "t_function_internal_pure$_t_uint256_$returns$_t_int256_$",
+                                                  "typeString": "function (uint256) pure returns (int256)"
+                                                }
+                                              },
+                                              "id": 232,
+                                              "isConstant": false,
+                                              "isLValue": false,
+                                              "isPure": false,
+                                              "kind": "functionCall",
+                                              "lValueRequested": false,
+                                              "names": [],
+                                              "nodeType": "FunctionCall",
+                                              "src": "2602:21:2",
+                                              "tryCall": false,
+                                              "typeDescriptions": {
+                                                "typeIdentifier": "t_int256",
+                                                "typeString": "int256"
+                                              }
+                                            }
+                                          ],
+                                          "expression": {
+                                            "argumentTypes": [
+                                              {
+                                                "typeIdentifier": "t_int256",
+                                                "typeString": "int256"
+                                              }
+                                            ],
+                                            "id": 227,
+                                            "name": "getTargetSaleTime",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 250,
+                                            "src": "2584:17:2",
+                                            "typeDescriptions": {
+                                              "typeIdentifier": "t_function_internal_view$_t_int256_$returns$_t_int256_$",
+                                              "typeString": "function (int256) view returns (int256)"
+                                            }
+                                          },
+                                          "id": 233,
+                                          "isConstant": false,
+                                          "isLValue": false,
+                                          "isPure": false,
+                                          "kind": "functionCall",
+                                          "lValueRequested": false,
+                                          "names": [],
+                                          "nodeType": "FunctionCall",
+                                          "src": "2584:40:2",
+                                          "tryCall": false,
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_int256",
+                                            "typeString": "int256"
+                                          }
+                                        },
+                                        "src": "2567:57:2",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_int256",
+                                          "typeString": "int256"
+                                        }
+                                      }
+                                    ],
+                                    "expression": {
+                                      "argumentTypes": [
+                                        {
+                                          "typeIdentifier": "t_int256",
+                                          "typeString": "int256"
+                                        },
+                                        {
+                                          "typeIdentifier": "t_int256",
+                                          "typeString": "int256"
+                                        }
+                                      ],
+                                      "id": 224,
+                                      "name": "unsafeWadMul",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 26607,
+                                      "src": "2230:12:2",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
+                                        "typeString": "function (int256,int256) pure returns (int256)"
+                                      }
+                                    },
+                                    "id": 235,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": false,
+                                    "kind": "functionCall",
+                                    "lValueRequested": false,
+                                    "names": [],
+                                    "nodeType": "FunctionCall",
+                                    "src": "2230:408:2",
+                                    "tryCall": false,
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_int256",
+                                      "typeString": "int256"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_int256",
+                                      "typeString": "int256"
+                                    }
+                                  ],
+                                  "id": 223,
+                                  "name": "wadExp",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 26836,
+                                  "src": "2223:6:2",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_internal_pure$_t_int256_$returns$_t_int256_$",
+                                    "typeString": "function (int256) pure returns (int256)"
+                                  }
+                                },
+                                "id": 236,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "2223:416:2",
+                                "tryCall": false,
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_int256",
+                                  "typeString": "int256"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_int256",
+                                  "typeString": "int256"
+                                },
+                                {
+                                  "typeIdentifier": "t_int256",
+                                  "typeString": "int256"
+                                }
+                              ],
+                              "id": 221,
+                              "name": "wadMul",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 26630,
+                              "src": "2203:6:2",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
+                                "typeString": "function (int256,int256) pure returns (int256)"
+                              }
+                            },
+                            "id": 237,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "2203:437:2",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_int256",
+                              "typeString": "int256"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_int256",
+                              "typeString": "int256"
+                            }
+                          ],
+                          "id": 220,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "2195:7:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_uint256_$",
+                            "typeString": "type(uint256)"
+                          },
+                          "typeName": {
+                            "id": 219,
+                            "name": "uint256",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "2195:7:2",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 238,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "2195:446:2",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "functionReturnParameters": 218,
+                      "id": 239,
+                      "nodeType": "Return",
+                      "src": "2188:453:2"
+                    }
+                  ]
+                }
+              ]
+            },
+            "documentation": {
+              "id": 210,
+              "nodeType": "StructuredDocumentation",
+              "src": "1717:303:2",
+              "text": "@notice Calculate the price of a token according to the VRGDA formula.\n @param timeSinceStart Time passed since the VRGDA began, scaled by 1e18.\n @param sold The total number of tokens that have been sold so far.\n @return The price of a token according to VRGDA, scaled by 1e18."
+            },
+            "functionSelector": "f466d4ab",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getVRGDAPrice",
+            "nameLocation": "2034:13:2",
+            "parameters": {
+              "id": 215,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 212,
+                  "mutability": "mutable",
+                  "name": "timeSinceStart",
+                  "nameLocation": "2055:14:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 242,
+                  "src": "2048:21:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 211,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2048:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 214,
+                  "mutability": "mutable",
+                  "name": "sold",
+                  "nameLocation": "2079:4:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 242,
+                  "src": "2071:12:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 213,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2071:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2047:37:2"
+            },
+            "returnParameters": {
+              "id": 218,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 217,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 242,
+                  "src": "2114:7:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 216,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2114:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2113:9:2"
+            },
+            "scope": 251,
+            "stateMutability": "view",
+            "virtual": true,
+            "visibility": "public"
+          },
+          {
+            "id": 250,
+            "nodeType": "FunctionDefinition",
+            "src": "3073:77:2",
+            "documentation": {
+              "id": 243,
+              "nodeType": "StructuredDocumentation",
+              "src": "2664:404:2",
+              "text": "@dev Given a number of tokens sold, return the target time that number of tokens should be sold by.\n @param sold A number of tokens sold, scaled by 1e18, to get the corresponding target sale time for.\n @return The target time the tokens should be sold by, scaled by 1e18, where the time is\n relative, such that 0 means the tokens should be sold immediately when the VRGDA begins."
+            },
+            "functionSelector": "6d9d33b7",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getTargetSaleTime",
+            "nameLocation": "3082:17:2",
+            "parameters": {
+              "id": 246,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 245,
+                  "mutability": "mutable",
+                  "name": "sold",
+                  "nameLocation": "3107:4:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 250,
+                  "src": "3100:11:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 244,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3100:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3099:13:2"
+            },
+            "returnParameters": {
+              "id": 249,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 248,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 250,
+                  "src": "3142:6:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 247,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3142:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3141:8:2"
+            },
+            "scope": 251,
+            "stateMutability": "view",
+            "virtual": true,
+            "visibility": "public"
+          }
+        ],
+        "abstract": true,
+        "baseContracts": [],
+        "canonicalName": "VRGDA",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 175,
+          "nodeType": "StructuredDocumentation",
+          "src": "157:211:2",
+          "text": "@title Variable Rate Gradual Dutch Auction\n @author transmissions11 <t11s@paradigm.xyz>\n @author FrankieIsLost <frankie@paradigm.xyz>\n @notice Sell tokens roughly according to an issuance schedule."
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          251
+        ],
+        "name": "VRGDA",
+        "nameLocation": "386:5:2",
+        "scope": 252,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 2
+}

@@ -1,0 +1,2669 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "src",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib",
+      "node_modules"
+    ]
+  },
+  "files": {
+    "lib/VRGDAs/src/LogisticToLinearVRGDA.sol": {
+      "lastModificationDate": 1662880581625,
+      "contentHash": "882406e6b0c9644f386415ad6d3acd3b",
+      "sourceName": "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "LogisticToLinearVRGDA": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "LogisticToLinearVRGDA.sol/LogisticToLinearVRGDA.json"
+        }
+      }
+    },
+    "lib/VRGDAs/src/LogisticVRGDA.sol": {
+      "lastModificationDate": 1662880581625,
+      "contentHash": "8b25bafc57536261b9eceeab785c3577",
+      "sourceName": "lib/VRGDAs/src/LogisticVRGDA.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "LogisticVRGDA": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "LogisticVRGDA.sol/LogisticVRGDA.json"
+        }
+      }
+    },
+    "lib/VRGDAs/src/VRGDA.sol": {
+      "lastModificationDate": 1662880581626,
+      "contentHash": "f9b02ce34ca96e0d7c912ac52bd1ada6",
+      "sourceName": "lib/VRGDAs/src/VRGDA.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/utils/SignedWadMath.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "VRGDA": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "VRGDA.sol/VRGDA.json"
+        }
+      }
+    },
+    "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol": {
+      "lastModificationDate": 1643934620898,
+      "contentHash": "c05c2205d74e9eb8267d6ae133c98e73",
+      "sourceName": "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "VRFConsumerBase": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "VRFConsumerBase.sol/VRFConsumerBase.json"
+        }
+      }
+    },
+    "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol": {
+      "lastModificationDate": 1643934620898,
+      "contentHash": "e7fc1c36cb6d9f4b7d64c59dfd2c6211",
+      "sourceName": "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "VRFRequestIDBase": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "VRFRequestIDBase.sol/VRFRequestIDBase.json"
+        }
+      }
+    },
+    "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol": {
+      "lastModificationDate": 1643934620906,
+      "contentHash": "da5a0c3bd86c896f6a407f909c57edf3",
+      "sourceName": "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "LinkTokenInterface": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "LinkTokenInterface.sol/LinkTokenInterface.json"
+        }
+      }
+    },
+    "lib/chainlink/contracts/src/v0.8/mocks/VRFCoordinatorMock.sol": {
+      "lastModificationDate": 1643934620911,
+      "contentHash": "046c45b7218ba8f2d2c7d7dc577219aa",
+      "sourceName": "lib/chainlink/contracts/src/v0.8/mocks/VRFCoordinatorMock.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "VRFCoordinatorMock": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "VRFCoordinatorMock.sol/VRFCoordinatorMock.json"
+        }
+      }
+    },
+    "lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1655401671512,
+      "contentHash": "962996f0e05d5218857a538a62d7c47e",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "DSTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "test.sol/DSTest.json"
+        }
+      }
+    },
+    "lib/forge-std/src/Script.sol": {
+      "lastModificationDate": 1662880586431,
+      "contentHash": "571dde8775a6214a03d6772ee330ead5",
+      "sourceName": "lib/forge-std/src/Script.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol"
+      ],
+      "versionRequirement": ">=0.6.0, <0.9.0",
+      "artifacts": {
+        "Script": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Script.sol/Script.json"
+        }
+      }
+    },
+    "lib/forge-std/src/StdJson.sol": {
+      "lastModificationDate": 1662880586431,
+      "contentHash": "75c782f20a301ab9827060a03da071e4",
+      "sourceName": "lib/forge-std/src/StdJson.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Vm.sol"
+      ],
+      "versionRequirement": ">=0.6.0, <0.9.0",
+      "artifacts": {
+        "stdJson": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "StdJson.sol/stdJson.json"
+        }
+      }
+    },
+    "lib/forge-std/src/Test.sol": {
+      "lastModificationDate": 1662880586432,
+      "contentHash": "6cab65c53a9548c2428a10697fd06dd1",
+      "sourceName": "lib/forge-std/src/Test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol"
+      ],
+      "versionRequirement": ">=0.6.0, <0.9.0",
+      "artifacts": {
+        "Test": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Test.sol/Test.json"
+        },
+        "stdError": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Test.sol/stdError.json"
+        },
+        "stdMath": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Test.sol/stdMath.json"
+        },
+        "stdStorage": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Test.sol/stdStorage.json"
+        }
+      }
+    },
+    "lib/forge-std/src/Vm.sol": {
+      "lastModificationDate": 1662880586432,
+      "contentHash": "4260ba1200fd6c8f55a0ee9935f2d3d0",
+      "sourceName": "lib/forge-std/src/Vm.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.0, <0.9.0",
+      "artifacts": {
+        "Vm": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Vm.sol/Vm.json"
+        }
+      }
+    },
+    "lib/forge-std/src/console.sol": {
+      "lastModificationDate": 1650913838208,
+      "contentHash": "100b8a33b917da1147740d7ab8b0ded3",
+      "sourceName": "lib/forge-std/src/console.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "src/console.sol/console.json"
+        }
+      }
+    },
+    "lib/forge-std/src/console2.sol": {
+      "lastModificationDate": 1650913838208,
+      "contentHash": "5df91f8e93efbfcccf68973dc1b74a70",
+      "sourceName": "lib/forge-std/src/console2.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console2": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "console2.sol/console2.json"
+        }
+      }
+    },
+    "lib/goo-issuance/src/LibGOO.sol": {
+      "lastModificationDate": 1662880586479,
+      "contentHash": "154aefbb69b37b4459ae47ae0f992e4f",
+      "sourceName": "lib/goo-issuance/src/LibGOO.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/utils/FixedPointMathLib.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "LibGOO": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "LibGOO.sol/LibGOO.json"
+        }
+      }
+    },
+    "lib/solmate/src/auth/Owned.sol": {
+      "lastModificationDate": 1662880589586,
+      "contentHash": "cbb684ea20bea675b7d97397da4bfd95",
+      "sourceName": "lib/solmate/src/auth/Owned.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "Owned": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Owned.sol/Owned.json"
+        }
+      }
+    },
+    "lib/solmate/src/test/utils/DSTestPlus.sol": {
+      "lastModificationDate": 1662880589591,
+      "contentHash": "233425f6b5fcb4396d9ecb115f13cfab",
+      "sourceName": "lib/solmate/src/test/utils/DSTestPlus.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/solmate/src/test/utils/Hevm.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "DSTestPlus": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "DSTestPlus.sol/DSTestPlus.json"
+        }
+      }
+    },
+    "lib/solmate/src/test/utils/Hevm.sol": {
+      "lastModificationDate": 1650310452446,
+      "contentHash": "60742aa83f930a4226fbe7676f06b607",
+      "sourceName": "lib/solmate/src/test/utils/Hevm.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "Hevm": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Hevm.sol/Hevm.json"
+        }
+      }
+    },
+    "lib/solmate/src/test/utils/mocks/MockERC1155.sol": {
+      "lastModificationDate": 1650310452446,
+      "contentHash": "27fbb8a9833bf2f80f08f2ad4ba2b378",
+      "sourceName": "lib/solmate/src/test/utils/mocks/MockERC1155.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/tokens/ERC1155.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "MockERC1155": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "MockERC1155.sol/MockERC1155.json"
+        }
+      }
+    },
+    "lib/solmate/src/tokens/ERC1155.sol": {
+      "lastModificationDate": 1662880589591,
+      "contentHash": "558676409e429f6c4f2deef39106e3c0",
+      "sourceName": "lib/solmate/src/tokens/ERC1155.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ERC1155": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ERC1155.sol/ERC1155.json"
+        },
+        "ERC1155TokenReceiver": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ERC1155.sol/ERC1155TokenReceiver.json"
+        }
+      }
+    },
+    "lib/solmate/src/tokens/ERC20.sol": {
+      "lastModificationDate": 1662880589592,
+      "contentHash": "0c7c7ada139062536af09d69d96d395c",
+      "sourceName": "lib/solmate/src/tokens/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
+    "lib/solmate/src/tokens/ERC721.sol": {
+      "lastModificationDate": 1662880589592,
+      "contentHash": "ecc06cefc5404b9e1adbc2e459d5757e",
+      "sourceName": "lib/solmate/src/tokens/ERC721.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ERC721": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ERC721.sol/ERC721.json"
+        },
+        "ERC721TokenReceiver": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ERC721.sol/ERC721TokenReceiver.json"
+        }
+      }
+    },
+    "lib/solmate/src/utils/Bytes32AddressLib.sol": {
+      "lastModificationDate": 1662880589592,
+      "contentHash": "8a05c8576a41e44d3e96a6e169162327",
+      "sourceName": "lib/solmate/src/utils/Bytes32AddressLib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "Bytes32AddressLib": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Bytes32AddressLib.sol/Bytes32AddressLib.json"
+        }
+      }
+    },
+    "lib/solmate/src/utils/FixedPointMathLib.sol": {
+      "lastModificationDate": 1662967862561,
+      "contentHash": "ff0a49d9a7f651401310e1368ce46733",
+      "sourceName": "lib/solmate/src/utils/FixedPointMathLib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "FixedPointMathLib": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "FixedPointMathLib.sol/FixedPointMathLib.json"
+        }
+      }
+    },
+    "lib/solmate/src/utils/LibString.sol": {
+      "lastModificationDate": 1662880589593,
+      "contentHash": "1467b30e73456c3b801789c7363467c8",
+      "sourceName": "lib/solmate/src/utils/LibString.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "LibString": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "LibString.sol/LibString.json"
+        }
+      }
+    },
+    "lib/solmate/src/utils/MerkleProofLib.sol": {
+      "lastModificationDate": 1662880589593,
+      "contentHash": "e670a4464d718e01f755e2ccb78d1b31",
+      "sourceName": "lib/solmate/src/utils/MerkleProofLib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "MerkleProofLib": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "MerkleProofLib.sol/MerkleProofLib.json"
+        }
+      }
+    },
+    "lib/solmate/src/utils/SignedWadMath.sol": {
+      "lastModificationDate": 1662880589595,
+      "contentHash": "a564142771f1293e02068994cc997a37",
+      "sourceName": "lib/solmate/src/utils/SignedWadMath.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "SignedWadMath": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "SignedWadMath.sol/SignedWadMath.json"
+        }
+      }
+    },
+    "script/deploy/DeployBase.s.sol": {
+      "lastModificationDate": 1662967853621,
+      "contentHash": "d1914bf4c96eca94c866e97a6cb99e0d",
+      "sourceName": "script/deploy/DeployBase.s.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/GobblerReserve.sol",
+        "src/utils/rand/ChainlinkV1RandProvider.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol",
+        "test/utils/LibRLP.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "DeployBase": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "DeployBase.s.sol/DeployBase.json"
+        }
+      }
+    },
+    "script/deploy/DeployRinkeby.s.sol": {
+      "lastModificationDate": 1663484198054,
+      "contentHash": "b6061757ea6331b964eb09bca9901754",
+      "sourceName": "script/deploy/DeployRinkeby.s.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "script/deploy/DeployBase.s.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/GobblerReserve.sol",
+        "src/utils/rand/ChainlinkV1RandProvider.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol",
+        "test/utils/LibRLP.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "DeployRinkeby": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "DeployRinkeby.s.sol/DeployRinkeby.json"
+        }
+      }
+    },
+    "src/ArtGobblers.sol": {
+      "lastModificationDate": 1663531884907,
+      "contentHash": "1883fc312540b2f73f9b1505d797c150",
+      "sourceName": "src/ArtGobblers.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ArtGobblers": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ArtGobblers.sol/ArtGobblers.json"
+        }
+      }
+    },
+    "src/FartGoblins.sol": {
+      "lastModificationDate": 1663533880752,
+      "contentHash": "ffe8c50a29f597e93c61d9d01bc7773e",
+      "sourceName": "src/FartGoblins.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "FartGoblins": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "FartGoblins.sol/FartGoblins.json"
+        }
+      }
+    },
+    "src/Goo.sol": {
+      "lastModificationDate": 1663484198056,
+      "contentHash": "e10cce784b4d943492a8c42ff67fc303",
+      "sourceName": "src/Goo.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/tokens/ERC20.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "Goo": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Goo.sol/Goo.json"
+        }
+      }
+    },
+    "src/Pages.sol": {
+      "lastModificationDate": 1663484198057,
+      "contentHash": "0bc31a615ff0311fb5ddb87478db151e",
+      "sourceName": "src/Pages.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "Pages": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Pages.sol/Pages.json"
+        }
+      }
+    },
+    "src/utils/GobblerReserve.sol": {
+      "lastModificationDate": 1662967853622,
+      "contentHash": "d01d52fa05c5b004419af0e5f703449d",
+      "sourceName": "src/utils/GobblerReserve.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "GobblerReserve": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "GobblerReserve.sol/GobblerReserve.json"
+        }
+      }
+    },
+    "src/utils/rand/ChainlinkV1RandProvider.sol": {
+      "lastModificationDate": 1662967853622,
+      "contentHash": "37345b88143f185ed3b9c3df22fad485",
+      "sourceName": "src/utils/rand/ChainlinkV1RandProvider.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ChainlinkV1RandProvider": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ChainlinkV1RandProvider.sol/ChainlinkV1RandProvider.json"
+        }
+      }
+    },
+    "src/utils/rand/RandProvider.sol": {
+      "lastModificationDate": 1662836838047,
+      "contentHash": "f54ad93d0603e65584774f0adcb9d239",
+      "sourceName": "src/utils/rand/RandProvider.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "RandProvider": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "RandProvider.sol/RandProvider.json"
+        }
+      }
+    },
+    "src/utils/token/GobblersERC1155B.sol": {
+      "lastModificationDate": 1662836838047,
+      "contentHash": "de321a2fb144dc8b3b998379a59e5329",
+      "sourceName": "src/utils/token/GobblersERC1155B.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/tokens/ERC1155.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "GobblersERC1155B": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "GobblersERC1155B.sol/GobblersERC1155B.json"
+        }
+      }
+    },
+    "src/utils/token/PagesERC721.sol": {
+      "lastModificationDate": 1662490532083,
+      "contentHash": "8ac78ecccc1e875bd87448541b07e782",
+      "sourceName": "src/utils/token/PagesERC721.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "PagesERC721": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "PagesERC721.sol/PagesERC721.json"
+        }
+      }
+    },
+    "test/ArtGobblers.t.sol": {
+      "lastModificationDate": 1663302935219,
+      "contentHash": "10c9569e24beb5d910bbf8cb53a87808",
+      "sourceName": "test/ArtGobblers.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+        "lib/chainlink/contracts/src/v0.8/mocks/VRFCoordinatorMock.sol",
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/test/utils/DSTestPlus.sol",
+        "lib/solmate/src/test/utils/Hevm.sol",
+        "lib/solmate/src/test/utils/mocks/MockERC1155.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/GobblerReserve.sol",
+        "src/utils/rand/ChainlinkV1RandProvider.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol",
+        "test/utils/Console.sol",
+        "test/utils/LibRLP.sol",
+        "test/utils/Utilities.sol",
+        "test/utils/mocks/LinkToken.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ArtGobblersTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ArtGobblers.t.sol/ArtGobblersTest.json"
+        }
+      }
+    },
+    "test/Benchmarks.t.sol": {
+      "lastModificationDate": 1662967853623,
+      "contentHash": "69ff648f603661a4da68b2086b0fa814",
+      "sourceName": "test/Benchmarks.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+        "lib/chainlink/contracts/src/v0.8/mocks/VRFCoordinatorMock.sol",
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/rand/ChainlinkV1RandProvider.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol",
+        "test/utils/Console.sol",
+        "test/utils/LibRLP.sol",
+        "test/utils/Utilities.sol",
+        "test/utils/mocks/LinkToken.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "BenchmarksTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Benchmarks.t.sol/BenchmarksTest.json"
+        }
+      }
+    },
+    "test/GobblerReserve.t.sol": {
+      "lastModificationDate": 1662967853623,
+      "contentHash": "9f0090210cd088b85f7d9522bdc05d19",
+      "sourceName": "test/GobblerReserve.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+        "lib/chainlink/contracts/src/v0.8/mocks/VRFCoordinatorMock.sol",
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/test/utils/DSTestPlus.sol",
+        "lib/solmate/src/test/utils/Hevm.sol",
+        "lib/solmate/src/test/utils/mocks/MockERC1155.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/GobblerReserve.sol",
+        "src/utils/rand/ChainlinkV1RandProvider.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol",
+        "test/utils/Console.sol",
+        "test/utils/LibRLP.sol",
+        "test/utils/Utilities.sol",
+        "test/utils/mocks/LinkToken.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "GobblerReserveTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "GobblerReserve.t.sol/GobblerReserveTest.json"
+        }
+      }
+    },
+    "test/Goo.t.sol": {
+      "lastModificationDate": 1658767039940,
+      "contentHash": "447481ba4ab6107582f1998f59a35ac3",
+      "sourceName": "test/Goo.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "src/Goo.sol",
+        "test/utils/LibRLP.sol",
+        "test/utils/Utilities.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "GooTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Goo.t.sol/GooTest.json"
+        }
+      }
+    },
+    "test/Optimizations.t.sol": {
+      "lastModificationDate": 1658767039941,
+      "contentHash": "9cdbb69465b70c9c1bfc9c543d5111f2",
+      "sourceName": "test/Optimizations.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/solmate/src/test/utils/DSTestPlus.sol",
+        "lib/solmate/src/test/utils/Hevm.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "OptimizationsTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Optimizations.t.sol/OptimizationsTest.json"
+        }
+      }
+    },
+    "test/Pages.t.sol": {
+      "lastModificationDate": 1662967853623,
+      "contentHash": "735deae321d3dd79388e3f7921d0aff7",
+      "sourceName": "test/Pages.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/test/utils/DSTestPlus.sol",
+        "lib/solmate/src/test/utils/Hevm.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol",
+        "test/utils/Console.sol",
+        "test/utils/LibRLP.sol",
+        "test/utils/Utilities.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "PagesTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Pages.t.sol/PagesTest.json"
+        }
+      }
+    },
+    "test/RandProvider.t.sol": {
+      "lastModificationDate": 1662967853623,
+      "contentHash": "ddb9605c43e598086bbe56b5e94c59db",
+      "sourceName": "test/RandProvider.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+        "lib/chainlink/contracts/src/v0.8/mocks/VRFCoordinatorMock.sol",
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/test/utils/DSTestPlus.sol",
+        "lib/solmate/src/test/utils/Hevm.sol",
+        "lib/solmate/src/test/utils/mocks/MockERC1155.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/GobblerReserve.sol",
+        "src/utils/rand/ChainlinkV1RandProvider.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol",
+        "test/utils/Console.sol",
+        "test/utils/LibRLP.sol",
+        "test/utils/Utilities.sol",
+        "test/utils/mocks/LinkToken.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "RandProviderTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "RandProvider.t.sol/RandProviderTest.json"
+        }
+      }
+    },
+    "test/VRGDAs.t.sol": {
+      "lastModificationDate": 1662967853624,
+      "contentHash": "23575b2d53398e20c87619c0a825adb3",
+      "sourceName": "test/VRGDAs.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+        "lib/chainlink/contracts/src/v0.8/mocks/VRFCoordinatorMock.sol",
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/test/utils/DSTestPlus.sol",
+        "lib/solmate/src/test/utils/Hevm.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/rand/ChainlinkV1RandProvider.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol",
+        "test/utils/Console.sol",
+        "test/utils/LibRLP.sol",
+        "test/utils/Utilities.sol",
+        "test/utils/mocks/LinkToken.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "VRGDAsTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "VRGDAs.t.sol/VRGDAsTest.json"
+        }
+      }
+    },
+    "test/correctness/GobblersCorrectness.t.sol": {
+      "lastModificationDate": 1662967853624,
+      "contentHash": "dc797ab15a9519ccd04501828388976e",
+      "sourceName": "test/correctness/GobblersCorrectness.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/test/utils/DSTestPlus.sol",
+        "lib/solmate/src/test/utils/Hevm.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "GobblersCorrectnessTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "GobblersCorrectness.t.sol/GobblersCorrectnessTest.json"
+        }
+      }
+    },
+    "test/correctness/PagesCorrectness.t.sol": {
+      "lastModificationDate": 1662967853624,
+      "contentHash": "f61900318e842c8adcdaef8c3299489d",
+      "sourceName": "test/correctness/PagesCorrectness.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/test/utils/DSTestPlus.sol",
+        "lib/solmate/src/test/utils/Hevm.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol",
+        "test/utils/Console.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "PageCorrectnessTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "PagesCorrectness.t.sol/PageCorrectnessTest.json"
+        }
+      }
+    },
+    "test/deploy/DeployRinkeby.t.sol": {
+      "lastModificationDate": 1662490532088,
+      "contentHash": "6695c24e0379eb0edbe03764f996a892",
+      "sourceName": "test/deploy/DeployRinkeby.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/VRGDAs/src/LogisticToLinearVRGDA.sol",
+        "lib/VRGDAs/src/LogisticVRGDA.sol",
+        "lib/VRGDAs/src/VRGDA.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFConsumerBase.sol",
+        "lib/chainlink/contracts/src/v0.8/VRFRequestIDBase.sol",
+        "lib/chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/goo-issuance/src/LibGOO.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/test/utils/DSTestPlus.sol",
+        "lib/solmate/src/test/utils/Hevm.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC721.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/LibString.sol",
+        "lib/solmate/src/utils/MerkleProofLib.sol",
+        "lib/solmate/src/utils/SignedWadMath.sol",
+        "script/deploy/DeployBase.s.sol",
+        "script/deploy/DeployRinkeby.s.sol",
+        "src/ArtGobblers.sol",
+        "src/Goo.sol",
+        "src/Pages.sol",
+        "src/utils/GobblerReserve.sol",
+        "src/utils/rand/ChainlinkV1RandProvider.sol",
+        "src/utils/rand/RandProvider.sol",
+        "src/utils/token/GobblersERC1155B.sol",
+        "src/utils/token/PagesERC721.sol",
+        "test/utils/LibRLP.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "DeployRinkebyTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "DeployRinkeby.t.sol/DeployRinkebyTest.json"
+        }
+      }
+    },
+    "test/utils/Console.sol": {
+      "lastModificationDate": 1658767039944,
+      "contentHash": "eb03b5a0653db6eeb6fd463d68390ccb",
+      "sourceName": "test/utils/Console.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "console": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Console.sol/console.json"
+        }
+      }
+    },
+    "test/utils/LibRLP.sol": {
+      "lastModificationDate": 1658767039944,
+      "contentHash": "18b0f4d958e98a831ce4da4d16581528",
+      "sourceName": "test/utils/LibRLP.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/utils/Bytes32AddressLib.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "LibRLP": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "LibRLP.sol/LibRLP.json"
+        }
+      }
+    },
+    "test/utils/Utilities.sol": {
+      "lastModificationDate": 1658767039944,
+      "contentHash": "9e56409ea30a94cdee6a3e678e2fbadd",
+      "sourceName": "test/utils/Utilities.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/solmate/src/utils/Bytes32AddressLib.sol",
+        "test/utils/LibRLP.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "Utilities": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Utilities.sol/Utilities.json"
+        }
+      }
+    },
+    "test/utils/mocks/LinkToken.sol": {
+      "lastModificationDate": 1658767039945,
+      "contentHash": "95dc7c16369fc9513a23f20a72620a62",
+      "sourceName": "test/utils/mocks/LinkToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/tokens/ERC20.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ERC677Receiver": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "LinkToken.sol/ERC677Receiver.json"
+        },
+        "LinkToken": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "LinkToken.sol/LinkToken.json"
+        }
+      }
+    },
+    "test/utils/mocks/MockGooCalculator.sol": {
+      "lastModificationDate": 1658767039945,
+      "contentHash": "6ec722229313915c6b8495030f8e89e8",
+      "sourceName": "test/utils/mocks/MockGooCalculator.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/utils/FixedPointMathLib.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "MockGooCalculator": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "MockGooCalculator.sol/MockGooCalculator.json"
+        }
+      }
+    }
+  }
+}

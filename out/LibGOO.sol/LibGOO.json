@@ -1,0 +1,846 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "emissionMultiple",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "lastBalanceWad",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "timeElapsedWad",
+          "type": "uint256"
+        }
+      ],
+      "name": "computeGOOBalance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6101c561003a600b82828239805160001a60731461002d57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600436106100355760003560e01c80633ecf75e91461003a575b600080fd5b61004d61004836600461018c565b61005f565b60405190815260200160405180910390f35b60008061006c838061009f565b905061008d610086858702670de0b6b3a7640000026100bb565b849061009f565b90850260021c84010190509392505050565b60006100b48383670de0b6b3a764000061016d565b9392505050565b60b5817101000000000000000000000000000000000081106100e25760409190911b9060801c5b690100000000000000000081106100fe5760209190911b9060401c5b6501000000000081106101165760109190911b9060201c5b6301000000811061012c5760089190911b9060101c5b62010000010260121c80820401600190811c80830401811c80830401811c80830401811c80830401811c80830401811c80830401901c908190048111900390565b82820281151584158583048514171661018557600080fd5b0492915050565b6000806000606084860312156101a157600080fd5b50508135936020830135935060409092013591905056fea164736f6c634300080d000a",
+    "sourceMap": "342:1599:14:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;342:1599:14;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x73000000000000000000000000000000000000000030146080604052600436106100355760003560e01c80633ecf75e91461003a575b600080fd5b61004d61004836600461018c565b61005f565b60405190815260200160405180910390f35b60008061006c838061009f565b905061008d610086858702670de0b6b3a7640000026100bb565b849061009f565b90850260021c84010190509392505050565b60006100b48383670de0b6b3a764000061016d565b9392505050565b60b5817101000000000000000000000000000000000081106100e25760409190911b9060801c5b690100000000000000000081106100fe5760209190911b9060401c5b6501000000000081106101165760109190911b9060201c5b6301000000811061012c5760089190911b9060101c5b62010000010260121c80820401600190811c80830401811c80830401811c80830401811c80830401811c80830401811c80830401901c908190048111900390565b82820281151584158583048514171661018557600080fd5b0492915050565b6000806000606084860312156101a157600080fd5b50508135936020830135935060409092013591905056fea164736f6c634300080d000a",
+    "sourceMap": "342:1599:14:-:0;;;;;;;;;;;;;;;;;;;;;;;;810:1129;;;;;;:::i;:::-;;:::i;:::-;;;489:25:51;;;477:2;462:18;810:1129:14;;;;;;;;962:7;;1130:41;1156:14;;1130:25;:41::i;:::-;1098:73;;1540:382;1859:49;1879:14;1860:16;:33;1896:4;1860:40;1859:47;:49::i;:::-;1540:14;;:25;:382::i;:::-;1477:40;;;1522:1;1476:47;1224:300;;:698;;-1:-1:-1;810:1129:14;;;;;:::o;647:164:23:-;712:7;738:21;749:1;752;598:4;738:10;:21::i;:::-;731:28;647:164;-1:-1:-1;;;647:164:23:o;5735:3353::-;5922:3;5836:1;6371:37;6365:44;;6355:136;;6471:2;6467:10;;;;;6438:3;6434:11;6355:136;6520:21;6517:1;6514:28;6504:119;;6603:2;6599:10;;;;;6571:2;6567:10;6504:119;6652:13;6649:1;6646:20;6636:111;;6727:2;6723:10;;;;;6695:2;6691:10;6636:111;6776:9;6773:1;6770:16;6760:106;;6847:1;6843:9;;;;;6815:2;6811:10;6760:106;8083:5;8076:13;8069:21;8065:2;8061:30;8271:9;;;8264:17;8261:1;8257:25;;;8314:9;;;8307:17;8300:25;;8357:9;;;8350:17;8343:25;;8400:9;;;8393:17;8386:25;;8443:9;;;8436:17;8429:25;;8486:9;;;8479:17;8472:25;;8529:9;;;8522:17;8515:25;;9058:9;;;;9055:16;-1:-1:-1;9048:24:23;;;5735:3353::o;1507:535::-;1713:9;;;1844:19;;1837:27;1869:9;;1883;;;1880:16;;1866:31;1833:65;1823:121;;1928:1;1925;1918:12;1823:121;2007:19;;1507:535;-1:-1:-1;;1507:535:23:o;14:316:51:-;91:6;99;107;160:2;148:9;139:7;135:23;131:32;128:52;;;176:1;173;166:12;128:52;-1:-1:-1;;199:23:51;;;269:2;254:18;;241:32;;-1:-1:-1;320:2:51;305:18;;;292:32;;14:316;-1:-1:-1;14:316:51:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "computeGOOBalance(uint256,uint256,uint256)": "3ecf75e9"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"emissionMultiple\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"lastBalanceWad\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"timeElapsedWad\",\"type\":\"uint256\"}],\"name\":\"computeGOOBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"transmissions11 <t11s@paradigm.xyz>FrankieIsLost <frankie@paradigm.xyz>\",\"kind\":\"dev\",\"methods\":{\"computeGOOBalance(uint256,uint256,uint256)\":{\"params\":{\"emissionMultiple\":\"The multiple on emissions to consider when computing the balance.\",\"lastBalanceWad\":\"The last checkpointed balance to apply the emission multiple over time to, scaled by 1e18.\",\"timeElapsedWad\":\"The time elapsed since the last checkpoint, scaled by 1e18.\"}}},\"title\":\"GOO (Gradual Ownership Optimization) Issuance\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"computeGOOBalance(uint256,uint256,uint256)\":{\"notice\":\"Compute goo balance based on emission multiple, last balance, and time elapsed.\"}},\"notice\":\"Implementation of the GOO Issuance mechanism.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/goo-issuance/src/LibGOO.sol\":\"LibGOO\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"none\"},\"optimizer\":{\"enabled\":true,\"runs\":1000000},\"remappings\":[\":VRGDAs/=lib/VRGDAs/src/\",\":chainlink/=lib/chainlink/contracts/src/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":goo-issuance/=lib/goo-issuance/src/\",\":solmate/=lib/solmate/src/\"]},\"sources\":{\"lib/goo-issuance/src/LibGOO.sol\":{\"keccak256\":\"0xa3e2029d1e8aa605ae50eb2214bc492d6f9cb517b89262a384658318549ec41c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8246b53058771969735136c32897c39b46e46d1e62d6623b44de98a8fde6ac1e\",\"dweb:/ipfs/QmSqLdAR88KHYiUZYsrW5bR8R99NJAdmAnPUsU4Ue9YTWq\"]},\"lib/solmate/src/utils/FixedPointMathLib.sol\":{\"keccak256\":\"0xab8ca9afbb0f7412e1408d4f111b53cc00813bc752236638ad336050ea2188f8\",\"license\":\"AGPL-3.0-only\",\"urls\":[\"bzz-raw://cd892e4743a124063b7bc590c6f88f209a18a4831b18045afd843264fa75427f\",\"dweb:/ipfs/QmRunGD7E8enP5oZKiN8DxvAJew7J3jaz1iiHTFZj5Ghfc\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.13+commit.abaa5c0e"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "emissionMultiple",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "lastBalanceWad",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "timeElapsedWad",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "computeGOOBalance",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "computeGOOBalance(uint256,uint256,uint256)": {
+            "params": {
+              "emissionMultiple": "The multiple on emissions to consider when computing the balance.",
+              "lastBalanceWad": "The last checkpointed balance to apply the emission multiple over time to, scaled by 1e18.",
+              "timeElapsedWad": "The time elapsed since the last checkpoint, scaled by 1e18."
+            }
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "computeGOOBalance(uint256,uint256,uint256)": {
+            "notice": "Compute goo balance based on emission multiple, last balance, and time elapsed."
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":VRGDAs/=lib/VRGDAs/src/",
+        ":chainlink/=lib/chainlink/contracts/src/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":goo-issuance/=lib/goo-issuance/src/",
+        ":solmate/=lib/solmate/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 1000000
+      },
+      "metadata": {
+        "bytecodeHash": "none"
+      },
+      "compilationTarget": {
+        "lib/goo-issuance/src/LibGOO.sol": "LibGOO"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/goo-issuance/src/LibGOO.sol": {
+        "keccak256": "0xa3e2029d1e8aa605ae50eb2214bc492d6f9cb517b89262a384658318549ec41c",
+        "urls": [
+          "bzz-raw://8246b53058771969735136c32897c39b46e46d1e62d6623b44de98a8fde6ac1e",
+          "dweb:/ipfs/QmSqLdAR88KHYiUZYsrW5bR8R99NJAdmAnPUsU4Ue9YTWq"
+        ],
+        "license": "MIT"
+      },
+      "lib/solmate/src/utils/FixedPointMathLib.sol": {
+        "keccak256": "0xab8ca9afbb0f7412e1408d4f111b53cc00813bc752236638ad336050ea2188f8",
+        "urls": [
+          "bzz-raw://cd892e4743a124063b7bc590c6f88f209a18a4831b18045afd843264fa75427f",
+          "dweb:/ipfs/QmRunGD7E8enP5oZKiN8DxvAJew7J3jaz1iiHTFZj5Ghfc"
+        ],
+        "license": "AGPL-3.0-only"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "lib/goo-issuance/src/LibGOO.sol",
+    "id": 23848,
+    "exportedSymbols": {
+      "FixedPointMathLib": [
+        26532
+      ],
+      "LibGOO": [
+        23847
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:1910:14",
+    "nodes": [
+      {
+        "id": 23797,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:14",
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 23799,
+        "nodeType": "ImportDirective",
+        "src": "58:70:14",
+        "absolutePath": "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "file": "solmate/utils/FixedPointMathLib.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 23848,
+        "sourceUnit": 26533,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 23798,
+              "name": "FixedPointMathLib",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26532,
+              "src": "66:17:14",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 23847,
+        "nodeType": "ContractDefinition",
+        "src": "342:1599:14",
+        "nodes": [
+          {
+            "id": 23803,
+            "nodeType": "UsingForDirective",
+            "src": "363:36:14",
+            "global": false,
+            "libraryName": {
+              "id": 23801,
+              "name": "FixedPointMathLib",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 26532,
+              "src": "369:17:14"
+            },
+            "typeName": {
+              "id": 23802,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "391:7:14",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            }
+          },
+          {
+            "id": 23846,
+            "nodeType": "FunctionDefinition",
+            "src": "810:1129:14",
+            "body": {
+              "id": 23845,
+              "nodeType": "Block",
+              "src": "971:968:14",
+              "statements": [
+                {
+                  "id": 23844,
+                  "nodeType": "UncheckedBlock",
+                  "src": "981:952:14",
+                  "statements": [
+                    {
+                      "assignments": [
+                        23816
+                      ],
+                      "declarations": [
+                        {
+                          "constant": false,
+                          "id": 23816,
+                          "mutability": "mutable",
+                          "name": "timeElapsedSquaredWad",
+                          "nameLocation": "1106:21:14",
+                          "nodeType": "VariableDeclaration",
+                          "scope": 23844,
+                          "src": "1098:29:14",
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          },
+                          "typeName": {
+                            "id": 23815,
+                            "name": "uint256",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1098:7:14",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "visibility": "internal"
+                        }
+                      ],
+                      "id": 23821,
+                      "initialValue": {
+                        "arguments": [
+                          {
+                            "id": 23819,
+                            "name": "timeElapsedWad",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 23810,
+                            "src": "1156:14:14",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          ],
+                          "expression": {
+                            "id": 23817,
+                            "name": "timeElapsedWad",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 23810,
+                            "src": "1130:14:14",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "id": 23818,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "mulWadDown",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 26402,
+                          "src": "1130:25:14",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
+                            "typeString": "function (uint256,uint256) pure returns (uint256)"
+                          }
+                        },
+                        "id": 23820,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1130:41:14",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "VariableDeclarationStatement",
+                      "src": "1098:73:14"
+                    },
+                    {
+                      "expression": {
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 23842,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "commonType": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          },
+                          "id": 23830,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "id": 23822,
+                            "name": "lastBalanceWad",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 23808,
+                            "src": "1224:14:14",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "+",
+                          "rightExpression": {
+                            "components": [
+                              {
+                                "commonType": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                },
+                                "id": 23828,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "leftExpression": {
+                                  "components": [
+                                    {
+                                      "commonType": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      },
+                                      "id": 23825,
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "leftExpression": {
+                                        "id": 23823,
+                                        "name": "emissionMultiple",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 23806,
+                                        "src": "1477:16:14",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint256",
+                                          "typeString": "uint256"
+                                        }
+                                      },
+                                      "nodeType": "BinaryOperation",
+                                      "operator": "*",
+                                      "rightExpression": {
+                                        "id": 23824,
+                                        "name": "timeElapsedSquaredWad",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 23816,
+                                        "src": "1496:21:14",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint256",
+                                          "typeString": "uint256"
+                                        }
+                                      },
+                                      "src": "1477:40:14",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      }
+                                    }
+                                  ],
+                                  "id": 23826,
+                                  "isConstant": false,
+                                  "isInlineArray": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "nodeType": "TupleExpression",
+                                  "src": "1476:42:14",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                },
+                                "nodeType": "BinaryOperation",
+                                "operator": ">>",
+                                "rightExpression": {
+                                  "hexValue": "32",
+                                  "id": 23827,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "kind": "number",
+                                  "lValueRequested": false,
+                                  "nodeType": "Literal",
+                                  "src": "1522:1:14",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_rational_2_by_1",
+                                    "typeString": "int_const 2"
+                                  },
+                                  "value": "2"
+                                },
+                                "src": "1476:47:14",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              }
+                            ],
+                            "id": 23829,
+                            "isConstant": false,
+                            "isInlineArray": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "nodeType": "TupleExpression",
+                            "src": "1475:49:14",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "src": "1224:300:14",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "+",
+                        "rightExpression": {
+                          "arguments": [
+                            {
+                              "arguments": [],
+                              "expression": {
+                                "argumentTypes": [],
+                                "expression": {
+                                  "components": [
+                                    {
+                                      "commonType": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      },
+                                      "id": 23837,
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "leftExpression": {
+                                        "commonType": {
+                                          "typeIdentifier": "t_uint256",
+                                          "typeString": "uint256"
+                                        },
+                                        "id": 23835,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftExpression": {
+                                          "id": 23833,
+                                          "name": "emissionMultiple",
+                                          "nodeType": "Identifier",
+                                          "overloadedDeclarations": [],
+                                          "referencedDeclaration": 23806,
+                                          "src": "1860:16:14",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                          }
+                                        },
+                                        "nodeType": "BinaryOperation",
+                                        "operator": "*",
+                                        "rightExpression": {
+                                          "id": 23834,
+                                          "name": "lastBalanceWad",
+                                          "nodeType": "Identifier",
+                                          "overloadedDeclarations": [],
+                                          "referencedDeclaration": 23808,
+                                          "src": "1879:14:14",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                          }
+                                        },
+                                        "src": "1860:33:14",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint256",
+                                          "typeString": "uint256"
+                                        }
+                                      },
+                                      "nodeType": "BinaryOperation",
+                                      "operator": "*",
+                                      "rightExpression": {
+                                        "hexValue": "31653138",
+                                        "id": 23836,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "number",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "1896:4:14",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                                          "typeString": "int_const 1000000000000000000"
+                                        },
+                                        "value": "1e18"
+                                      },
+                                      "src": "1860:40:14",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      }
+                                    }
+                                  ],
+                                  "id": 23838,
+                                  "isConstant": false,
+                                  "isInlineArray": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "nodeType": "TupleExpression",
+                                  "src": "1859:42:14",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                },
+                                "id": 23839,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberName": "sqrt",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 26498,
+                                "src": "1859:47:14",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_function_internal_pure$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
+                                  "typeString": "function (uint256) pure returns (uint256)"
+                                }
+                              },
+                              "id": 23840,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "kind": "functionCall",
+                              "lValueRequested": false,
+                              "names": [],
+                              "nodeType": "FunctionCall",
+                              "src": "1859:49:14",
+                              "tryCall": false,
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            ],
+                            "expression": {
+                              "id": 23831,
+                              "name": "timeElapsedWad",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 23810,
+                              "src": "1540:14:14",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "id": 23832,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "mulWadDown",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 26402,
+                            "src": "1540:25:14",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
+                              "typeString": "function (uint256,uint256) pure returns (uint256)"
+                            }
+                          },
+                          "id": 23841,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1540:382:14",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "src": "1224:698:14",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "functionReturnParameters": 23814,
+                      "id": 23843,
+                      "nodeType": "Return",
+                      "src": "1217:705:14"
+                    }
+                  ]
+                }
+              ]
+            },
+            "documentation": {
+              "id": 23804,
+              "nodeType": "StructuredDocumentation",
+              "src": "405:400:14",
+              "text": "@notice Compute goo balance based on emission multiple, last balance, and time elapsed.\n @param emissionMultiple The multiple on emissions to consider when computing the balance.\n @param lastBalanceWad The last checkpointed balance to apply the emission multiple over time to, scaled by 1e18.\n @param timeElapsedWad The time elapsed since the last checkpoint, scaled by 1e18."
+            },
+            "functionSelector": "3ecf75e9",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "computeGOOBalance",
+            "nameLocation": "819:17:14",
+            "parameters": {
+              "id": 23811,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 23806,
+                  "mutability": "mutable",
+                  "name": "emissionMultiple",
+                  "nameLocation": "854:16:14",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 23846,
+                  "src": "846:24:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 23805,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "846:7:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 23808,
+                  "mutability": "mutable",
+                  "name": "lastBalanceWad",
+                  "nameLocation": "888:14:14",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 23846,
+                  "src": "880:22:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 23807,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "880:7:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 23810,
+                  "mutability": "mutable",
+                  "name": "timeElapsedWad",
+                  "nameLocation": "920:14:14",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 23846,
+                  "src": "912:22:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 23809,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "912:7:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "836:104:14"
+            },
+            "returnParameters": {
+              "id": 23814,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 23813,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 23846,
+                  "src": "962:7:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 23812,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "962:7:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "961:9:14"
+            },
+            "scope": 23847,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "LibGOO",
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": {
+          "id": 23800,
+          "nodeType": "StructuredDocumentation",
+          "src": "130:212:14",
+          "text": "@title GOO (Gradual Ownership Optimization) Issuance\n @author transmissions11 <t11s@paradigm.xyz>\n @author FrankieIsLost <frankie@paradigm.xyz>\n @notice Implementation of the GOO Issuance mechanism."
+        },
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          23847
+        ],
+        "name": "LibGOO",
+        "nameLocation": "350:6:14",
+        "scope": 23848,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 14
+}
