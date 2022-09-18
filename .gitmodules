@@ -10,3 +10,6 @@
 [submodule "lib/chainlink"]
 	path = lib/chainlink
 	url = https://github.com/smartcontractkit/chainlink
+[submodule "lib/goo-issuance"]
+	path = lib/goo-issuance
+	url = https://github.com/transmissions11/goo-issuance
