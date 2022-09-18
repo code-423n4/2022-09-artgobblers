@@ -101,7 +101,7 @@ SUM:|672|1184|1632
 * Can reveals be halted by an adversary or messed up in a way that the attributes assigned are not random?
 
 ### Related to GOO:
-* is all access control sound? Can an adversary mint goo for themselves?
+* Is all access control sound? Can an adversary mint goo for themselves?
 * Can an innocent user accidentally burn goo without recourse?
 * Can an adversary burn goo from another user's wallet?
 
