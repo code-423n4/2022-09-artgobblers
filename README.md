@@ -32,7 +32,7 @@
 
 ## Contest Scope
 
-The scope of the contest includes all the contracts in the src directory, as well as all src contracts in lib/VRGDAs and lib/goo-issuance. It also includes some contracts from lib/solmate. Specifically, the full list of contracts is as follows: 
+The scope of the contest includes all the contracts in the src and script directories, as well as all src contracts in lib/VRGDAs and lib/goo-issuance. It also includes some contracts from lib/solmate. Specifically, the full list of contracts is as follows: 
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
@@ -43,10 +43,12 @@ lib/solmate/src/tokens/ERC721.sol|58|36|137
 src/utils/token/GobblersERC1155B.sol|39|40|115
 lib/solmate/src/utils/SignedWadMath.sol|32|73|112
 src/utils/token/PagesERC721.sol|49|34|105
+script/deploy/DeployBase.s.sol|14|11|81
 src/Pages.sol|47|89|76
 src/utils/rand/ChainlinkV1RandProvider.sol|18|30|30
 lib/VRGDAs/src/LogisticToLinearVRGDA.sol|12|31|28
 lib/solmate/src/utils/MerkleProofLib.sol|8|15|24
+script/deploy/DeployRinkeby.s.sol|6|11|24
 src/Goo.sol|14|33|24
 lib/VRGDAs/src/LogisticVRGDA.sol|11|31|23
 lib/solmate/src/utils/LibString.sol|12|22|21
@@ -57,7 +59,7 @@ src/utils/GobblerReserve.sol|7|20|17
 lib/VRGDAs/src/LinearVRGDA.sol|7|21|16
 src/utils/rand/RandProvider.sol|4|12|6
 --------|--------|--------|--------
-SUM:|650|1058|1527
+SUM:|670|1080|1632
 
 
 ## Development & Testing
