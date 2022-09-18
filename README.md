@@ -61,6 +61,49 @@ src/utils/rand/RandProvider.sol|4|12|6
 --------|--------|--------|--------
 SUM:|672|1184|1632
 
+## Attack Surfaces
+
+### Related to VRGDA Auctions:
+* Could an adversary use specific inputs or timing conditions to severely underpay for a Gobbler/Page?
+* Could an innocent user be front-run in a way that our slippage protections wouldn't catch and overpay for a Gobbler/Page?
+* Could auctions be messed up for all users by becoming bricked and/or return a price far too low or high?
+
+### Related to Page Switchover:
+* Can the VRGDA switchover be delayed or forced to occur early by an adversary?
+* Can an adversary use post-switch or pre-switch pricing early?
+* Are prices messed up during or around the switch?
+
+### Related to Reserves/Community:
+* Can an adversary stop gobblers from being minted to a reserve?
+* Can reserves stop functioning and not allow minting/withdrawing gobblers to them?
+* Can too many gobblers be minted to the reserves?
+
+### Related to GOO emissions:
+* Can a user manipulate their gobbler holdings in such a way that they receive a disproportionate amount of goo emissions?
+* Can goo emissions be bricked?
+* Can an innocent user receive too few goo emissions relative to their gobbler holdings?
+* Can goo balances overflow?
+* Can an innocent user receive too few goo emissions due to a rounding error?
+* Can an adversary use rounding error to gain extra goo, especially when depositing and withdrawing?
+* Can transferring gobblers allow the recipient to receive a disproportionate emission multiple or result in the sender losing a disproportionate emission multiple?
+
+### Related to Legendary Auctions:
+* Can legendary auctions be started too early?
+* Can an adversary underpay for a legendary gobbler?
+* Can an innocent user be forced to overpay for a legendary gobbler?
+* Can legendary gobbler auctions be bricked?
+* Can legendary auctions return messed-up prices?
+* Can more than 10 legendary auctions occur?
+* Can a user mint a legendary gobbler with a higher than expected emission multiple?
+
+### Related to Gobbler reveals:
+* Can an adversary take advantage of the way seeds are requested from Chainlink or use specific inputs when revealing their Gobblers in a way that would allow them to control the randomness used to generate Gobble metadata and attributes?
+* Can reveals be halted by an adversary or messed up in a way that the attributes assigned are not random?
+
+### Related to GOO:
+* is all access control sound? Can an adversary mint goo for themselves?
+* Can an innocent user accidentally burn goo without recourse?
+* Can an adversary burn goo from another user's wallet?
 
 ## Development & Testing
 
