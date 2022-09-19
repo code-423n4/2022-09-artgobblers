@@ -37,7 +37,6 @@ The scope of the contest includes all the contracts in the src and script direct
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src/ArtGobblers.sol|191|370|357
-lib/solmate/src/tokens/ERC1155.sol|49|32|176
 lib/solmate/src/utils/FixedPointMathLib.sol|40|69|144
 lib/solmate/src/tokens/ERC721.sol|58|36|137
 src/utils/token/GobblersERC1155B.sol|39|40|115
@@ -60,7 +59,7 @@ lib/VRGDAs/src/LinearVRGDA.sol|7|21|16
 src/utils/GobblerReserve.sol|7|19|16
 src/utils/rand/RandProvider.sol|4|12|6
 --------|--------|--------|--------
-SUM:|693|1191|1674
+SUM:|644|1159|1498
 
 ## Development & Testing
 
