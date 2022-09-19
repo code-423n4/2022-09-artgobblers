@@ -61,7 +61,7 @@ src/utils/rand/RandProvider.sol|4|12|6
 --------|--------|--------|--------
 SUM:|644|1159|1498
 
-Any contract not mentioned in the table above is out of this contest's scope
+Any contract not mentioned in the table above is out of this contest's scope.
 
 ## Attack Surfaces
 
