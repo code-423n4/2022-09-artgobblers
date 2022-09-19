@@ -61,6 +61,8 @@ src/utils/rand/RandProvider.sol|4|12|6
 --------|--------|--------|--------
 SUM:|644|1159|1498
 
+Any contract not mentioned in the table above is out of this contest's scope
+
 ## Attack Surfaces
 
 ### Related to VRGDA Auctions:
@@ -112,9 +114,10 @@ You will need a copy of [Foundry](https://github.com/foundry-rs/foundry) install
 To build the contracts:
 
 ```sh
-git clone https://github.com/artgobblers/art-gobblers.git
-cd art-gobblers
+git clone git@github.com:code-423n4/2022-09-artgobblers.git
+cd 2022-09-artgobblers
 forge install
+forge build
 ```
 
 ### Run Tests
@@ -131,9 +134,15 @@ For longer fuzz campaigns, run:
 FOUNDRY_PROFILE="intense" forge test
 ```
 
-For differential fuzzing against a python implementation, see [here](./analysis/README.md).
+For differential fuzzing against a python implementation, see [here](https://github.com/code-423n4/2022-09-artgobblers/blob/main/analysis/README.md).
 
+### Run Slither 
 
+After [installing Slither](https://github.com/crytic/slither#how-to-install), run: 
+
+```sh
+slither src/ --solc-remaps 'ds-test/=lib/ds-test/src/ solmate/=lib/solmate/src/ forge-std/=lib/forge-std/src/ chainlink/=lib/chainlink/contracts/src/ VRGDAs/=lib/VRGDAs/src/ goo-issuance/=lib/goo-issuance/src/'
+```
 
 # Project Overview
 
@@ -290,7 +299,7 @@ This presents a complex strategy space that we saw play out on our 30x speed tes
 
 ### Gobblers
 
-![](/static/gobbler_schedule.png)
+![](https://www.paradigm.xyz/static/gobbler_schedule.png)
 
 Art Gobblers themselves begin at a supply of 2,000, issued as a free mint. Of these, 300 go to the core team and the rest go to the community, a mixture of collaborators, artists, collectors, builders, contest winners, and others.
 
@@ -302,7 +311,7 @@ Similarly to the [Nouns](https://nouns.wtf/) model, one in ten newly minted Gobb
 
 ### Blank Pages
 
-![](https://www.paradigm.xyz/static/gobbler_schedule.png)
+![](https://www.paradigm.xyz/static/page_schedule.png )
 
 No Blank Pages will exist at mint, but they can be created shortly after using Goo.
 
