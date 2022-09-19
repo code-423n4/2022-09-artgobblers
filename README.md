@@ -36,15 +36,16 @@ The scope of the contest includes all the contracts in the src and script direct
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src/ArtGobblers.sol|215|406|418
+src/ArtGobblers.sol|191|370|357
 lib/solmate/src/tokens/ERC1155.sol|49|32|176
 lib/solmate/src/utils/FixedPointMathLib.sol|40|69|144
 lib/solmate/src/tokens/ERC721.sol|58|36|137
 src/utils/token/GobblersERC1155B.sol|39|40|115
 lib/solmate/src/utils/SignedWadMath.sol|32|73|112
+src/utils/token/GobblersERC721.sol|46|44|105
 src/utils/token/PagesERC721.sol|49|34|105
 script/deploy/DeployBase.s.sol|14|11|81
-src/Pages.sol|48|148|76
+src/Pages.sol|47|148|75
 src/utils/rand/ChainlinkV1RandProvider.sol|18|30|30
 lib/VRGDAs/src/LogisticToLinearVRGDA.sol|12|31|28
 lib/solmate/src/utils/MerkleProofLib.sol|8|15|24
@@ -55,12 +56,11 @@ lib/solmate/src/utils/LibString.sol|12|22|21
 lib/VRGDAs/src/VRGDA.sol|10|31|19
 lib/goo-issuance/src/LibGOO.sol|6|17|19
 lib/solmate/src/auth/Owned.sol|12|15|17
-src/utils/GobblerReserve.sol|7|20|17
 lib/VRGDAs/src/LinearVRGDA.sol|7|21|16
+src/utils/GobblerReserve.sol|7|19|16
 src/utils/rand/RandProvider.sol|4|12|6
 --------|--------|--------|--------
-SUM:|672|1184|1632
-
+SUM:|693|1191|1674
 
 ## Development & Testing
 
