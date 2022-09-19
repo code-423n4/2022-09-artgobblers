@@ -114,7 +114,7 @@ To build the contracts:
 ```sh
 git clone https://github.com/artgobblers/art-gobblers.git
 cd art-gobblers
-forge build
+forge install
 ```
 
 ### Run Tests
