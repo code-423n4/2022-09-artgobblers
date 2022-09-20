@@ -2,7 +2,7 @@
 - $95,000 USDC main award pot
 - $5,000 USDC gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/contests/2022-09-artgobblers-contest/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2022-09-art-gobblers-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts September 20, 2022 16:00 UTC
 - Ends Septemnber 27, 2022 16:00 UTC
