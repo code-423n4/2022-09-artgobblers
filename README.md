@@ -39,7 +39,7 @@ File|blank|comment|code
 src/ArtGobblers.sol|191|370|357
 lib/solmate/src/utils/FixedPointMathLib.sol|40|69|144
 lib/solmate/src/tokens/ERC721.sol|58|36|137
-src/utils/token/GobblersERC1155B.sol|39|40|115
+src/utils/token/GobblersERC1155B.sol (**Note:** This contract is deprecated)|39|40|115
 lib/solmate/src/utils/SignedWadMath.sol|32|73|112
 src/utils/token/GobblersERC721.sol|46|44|105
 src/utils/token/PagesERC721.sol|49|34|105
