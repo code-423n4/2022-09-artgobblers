@@ -1,0 +1,2337 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q3-2022 / ☑art-gobblers-sept20
+==============================================================
+
+[09/19/2022 2:31 PM] kartoonjoy (pinned)
+👋 Hello and welcome to the contest channel for the $100K USDC **Art Gobblers** contest!
+
+📆 Contest opens 09/20/2022 4:00 PM (16:00 UTC) and runs through 09/27/2022 4:00 PM (16:00 UTC) (7 days).
+
+Please give a warm welcome to the Art Gobblers team, particularly @frankie and @t11s, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-09-art-gobblers-contest
+
+{Embed}
+https://code4rena.com/contests/2022-09-art-gobblers-contest
+Code4rena Art Gobblers contest
+$100,000 USDC
+20 September 2022—27 September 2022
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/C4-banner-7C19B.png
+
+{Reactions}
+hearteyesrobot (7) C4Keycap (8) 
+
+[09/19/2022 2:52 PM] pfapostol
+Any information about the SLOC?
+
+
+[09/19/2022 3:17 PM] kartoonjoy
+Pinned a message.
+
+
+[09/19/2022 4:13 PM] t11s#0001
+~1500 lines of actual code @pfapostol
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/Screen_Shot_2022-09-19_at_9.13.11_AM-259C7.png
+
+{Reactions}
+🔥 (14) 🇧 (2) 🇪 (2) 🇸 (2) 🇹 (2) 👆 (2) 
+
+[09/19/2022 4:53 PM] jeiwan
+1500 SLOC of assembly. Niiiice
+
+{Reactions}
+🔥 😂 (3) 
+
+[09/19/2022 4:53 PM] rustyrabbit
+what % assembly ? 😬
+
+
+[09/19/2022 5:15 PM] ch_301
+1500 SLOC ==> 100K  🤔
+
+
+[09/19/2022 5:16 PM] codingnamekiki
+https://tenor.com/view/uncle-scrooge-mcduck-money-rich-gif-14161225
+
+{Embed}
+https://tenor.com/view/uncle-scrooge-mcduck-money-rich-gif-14161225
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/uncle-scrooge-mcduck-money-1CB0F.png
+
+{Reactions}
+💸 
+
+[09/19/2022 5:20 PM] kartoonjoy
+Wardens, please note that this contest will open in about 23 hours. It will be a little earlier than our usual start time.
+
+{Reactions}
+hearteyesshark (2) ⏰ (2) 👍 
+
+[09/19/2022 5:24 PM] codingnamekiki
+even better l need a free day to chill
+
+
+[09/19/2022 5:25 PM] aga7hokakological
+no plz.🤣
+
+
+[09/19/2022 5:27 PM] haruxe
+https://tenor.com/view/omori-omori-sunny-sunny-agony-pain-gif-25681538
+
+{Embed}
+https://tenor.com/view/omori-omori-sunny-sunny-agony-pain-gif-25681538
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/omori-omori-sunny-B56E3.png
+
+{Reactions}
+😆 (2) 
+
+[09/19/2022 5:33 PM] jeiwan
+Anyway, it’s a great tech so the contest should be really fun, whether it’s Solidity or assembly
+
+
+[09/19/2022 5:39 PM] pfapostol
+Why do you dislike the assembly? This is the most straightforward language to understand(Not just because I used to be a reverse engineer)
+
+{Reactions}
+👎 🔥 
+
+[09/19/2022 5:48 PM] kartoonjoy
+hey wardens, we may want to carry this conversation to a different channel
+
+{Reactions}
+✅ (3) 
+
+[09/19/2022 8:12 PM] temitope
+Different channel?
+
+
+[09/19/2022 8:20 PM] kartoonjoy
+Yes, we ideally want to reserve the contest channels for discussion about the respective contests, particularly once the contest has begun. Other conversations can be had in the other available channels, #😃chat, #❓questions, #🐺wardens, etc.
+
+
+[09/19/2022 8:21 PM] temitope
+Oh 
+When will the contest be launch
+
+
+[09/19/2022 8:21 PM] codingnamekiki
+19 hours and 40 mins
+
+{Reactions}
+thankyou (2) 
+
+[09/19/2022 8:22 PM] temitope
+Thanks seen
+
+
+[09/19/2022 9:11 PM] t11s#0001
+fwiw there's actually very little assembly in here, we placed most of our focus on broad strokes optimizations like a compact storage layout & providing efficient ways to do multiple txs in 1 :p
+
+{Reactions}
+peepoeyes (13) 👍 (4) 4739_Skeletor 
+
+[09/19/2022 10:49 PM] frankieislost
+only 90% of the code is written in assembly, not much by @t11s standards
+
+{Reactions}
+😂 (13) 
+
+[09/19/2022 11:33 PM] kryptoklob
+This looks neat
+
+{Reactions}
+hearteyesrobot 
+
+[09/20/2022 4:09 AM] trust90
+Why do I have a feeling it is gonna be a fun one? 🤔
+
+
+[09/20/2022 8:37 AM] immeas
+assembly, differential equations and logistic functions, what's not to like?
+
+{Reactions}
+☝️ 
+
+[09/20/2022 8:54 AM] .tointer
+I am a big t11s simp. This is like incentivized learning course for me. Gonna be epic
+
+{Reactions}
+🎉 (4) 
+
+[09/20/2022 8:54 AM] smiling_heretic
+oh, that's nice, I kind of miss differential equations 😄
+
+
+[09/20/2022 4:06 PM] oridabush
+something is off with the contest's details and findings pages https://code4rena.com/contests/2022-09-art-gobblers-contest
+
+{Embed}
+https://code4rena.com/contests/2022-09-art-gobblers-contest
+Code4rena Art Gobblers contest
+$100,000 USDC
+20 September 2022—27 September 2022
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/C4-banner-7C19B.png
+
+
+[09/20/2022 4:06 PM] bnke0x0
+Here WeGo 🌝🌚
+
+
+[09/20/2022 4:07 PM] itsmetechjay
+The contest page will be up soon
+
+
+[09/20/2022 4:07 PM] itsmetechjay
+In the meantime, you can view the repo directly: https://github.com/code-423n4/2022-09-artgobblers
+
+{Embed}
+https://github.com/code-423n4/2022-09-artgobblers
+GitHub - code-423n4/2022-09-artgobblers
+Contribute to code-423n4/2022-09-artgobblers development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/5022f711-35d1-4c38-b876-ae3e28a43864-BC0F3
+
+
+[09/20/2022 4:08 PM] tofunmi
+Use the repo
+
+
+[09/20/2022 4:08 PM] oridabush
+yeah I did, just letting the team know
+
+
+[09/20/2022 4:08 PM] oridabush
+thanks ❤️
+
+
+[09/20/2022 4:08 PM] itsmetechjay
+Appreciate you looking out!
+
+{Reactions}
+chefskiss (2) 
+
+[09/20/2022 4:09 PM] tofunmi
+Thanks
+
+
+[09/20/2022 4:09 PM] ladboy233
+I love when team is using foundry
+
+{Reactions}
+❤️ (6) 
+
+[09/20/2022 4:17 PM] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-E0E7D.png
+
+
+[09/20/2022 4:18 PM] ladboy233
+Haha I thoguht I was reading a machine learning model.
+
+{Reactions}
+😂 (3) 
+
+[09/20/2022 4:18 PM] ladboy233
+like CNN
+
+
+[09/20/2022 4:18 PM] ladboy233
+lol
+
+
+[09/20/2022 4:18 PM] oridabush
+The art is 🔥
+
+
+[09/20/2022 4:20 PM] ENzo#2517
+Do someone recognize this error with slither (0.8.3) :
+crytic_compile.platform.exceptions.InvalidCompilation: Solidity version not found:
+
+
+[09/20/2022 4:21 PM] ENzo#2517
+when i type the slither command in README
+
+
+[09/20/2022 4:26 PM] ladboy233
+// Gobblers have taken a vow not to eat other gobblers.
+        if (nft == address(this)) revert Cannibalism();
+
+{Reactions}
+😂 (5) 
+
+[09/20/2022 4:26 PM] Franfran#5067
+So about the rules, no cannibalism allowed right ? 😃
+
+
+[09/20/2022 4:26 PM] ladboy233
+hahaha
+
+
+[09/20/2022 4:26 PM] Franfran#5067
+Ah you frontrunned me aha
+
+
+[09/20/2022 4:27 PM] Franfran#5067
+Cannibalism = high severity ?
+
+
+[09/20/2022 4:29 PM] czar102
+Respect.
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-7EE77.png
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-A7216.png
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-71E76.png
+
+
+[09/20/2022 4:33 PM] supernovahs
+What will we optimize for lol
+
+
+[09/20/2022 4:37 PM] t11s#0001
+looool
+
+
+[09/20/2022 4:54 PM] jeiwan
+I think gas optimizations in this contests should have high severity.
+
+
+[09/20/2022 4:58 PM] pfapostol
+No, high risk has paid lower recently than optimization.
+
+{Reactions}
+😂 (5) 
+
+[09/20/2022 5:06 PM] 0xnazgul
+who did the ascii art? Some of the best I've seen in a contract
+
+{Reactions}
+🥰 
+
+[09/20/2022 5:07 PM] t11s#0001
+we just used https://manytools.org/hacker-tools/convert-images-to-ascii-art/ :)
+
+{Embed}
+https://manytools.org/hacker-tools/convert-images-to-ascii-art/
+ASCII art generator for geeks! - Convert images/pictures to ASCII a...
+Convert images/pictures to ASCII art online! (HTML/text)
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/fb-icon-72A1A.png
+
+
+[09/20/2022 5:08 PM] t11s#0001
+>for geeks
+
+
+[09/20/2022 5:08 PM] t11s#0001
+they really had to call us out fr fr
+
+{Reactions}
+😂 (3) 
+
+[09/20/2022 5:09 PM] frankieislost
+>they knew
+
+{Reactions}
+🐗 
+
+[09/20/2022 5:11 PM] t11s#0001
+btw
+
+
+[09/20/2022 5:11 PM] t11s#0001
+here's a free issue for someone
+
+
+[09/20/2022 5:11 PM] t11s#0001
+https://github.com/artgobblers/art-gobblers/issues/145
+
+{Embed}
+https://github.com/artgobblers/art-gobblers/issues/145
+♻️ Left shift could be replaced by mul · Issue #145 · artgobblers/a...
+art-gobblers/src/ArtGobblers.sol Line 844 in c821b6d uint256 newNumMintedForReserves = numMintedForReserves += (numGobblersEach << 1);
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/145-8D365
+
+{Reactions}
+👍 (4) 
+
+[09/20/2022 5:12 PM] t11s#0001
+iirc as of the solc we are using the left shift doesnt save any gas and just hurts readability
+
+
+[09/20/2022 5:15 PM] codingnamekiki
+https://tenor.com/view/stewie-want-family-guy-gif-4590360
+
+{Embed}
+https://tenor.com/view/stewie-want-family-guy-gif-4590360
+I want it
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/stewie-want-DB8ED.png
+
+{Reactions}
+😂 (3) 
+
+[09/20/2022 5:48 PM] yixxas
+dam looks like a really cool project
+
+
+[09/20/2022 5:50 PM] aga7hokakological
+Even the whole code looks like an art
+
+{Reactions}
+💯 
+
+[09/20/2022 5:55 PM] yixxas
+just reading the docs makes me want to get a legendary gobbler 😅
+
+{Reactions}
+👍 (7) 
+
+[09/20/2022 6:27 PM] 0xalpharush
+You need to have solc installed. The easiest way to do so is using solc-select
+
+
+[09/20/2022 6:31 PM] ENzo#2517
+thx for your answer ! But I think i have... My current version of solc is 0.8.13
+
+
+[09/20/2022 6:48 PM] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-62E92.png
+
+{Reactions}
+🙌 
+
+[09/20/2022 6:53 PM] ladboy233
+the legendary samczsun!
+
+
+[09/20/2022 7:45 PM] ladboy233
+wow
+
+
+[09/20/2022 7:45 PM] ladboy233
+I realize this nft model is mingle of a brunch of success and renown nft model merged together.
+
+
+[09/20/2022 7:46 PM] ladboy233
+a NFT with token emission?
+
+
+[09/20/2022 7:46 PM] ladboy233
+that's hashmask. they make 40 million for nft auction even before NFT bull run.
+
+
+[09/20/2022 7:46 PM] ladboy233
+every 10th NFT mint to project team?
+
+
+[09/20/2022 7:46 PM] ladboy233
+that's nouns DAO there contest just finished.
+
+
+[09/20/2022 7:47 PM] ladboy233
+We also see the math from 0xManaco.
+
+
+[09/20/2022 7:48 PM] ladboy233
+Man. No wonder it comes from smartest elite in crypto space, paradigm!
+
+
+[09/20/2022 7:48 PM] Krow10#1760
+Still worth a lot more but not quite what is used to be
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-4F548.png
+
+{Reactions}
+👀 
+
+[09/20/2022 7:50 PM] ladboy233
+interesting statistics
+
+
+[09/20/2022 7:51 PM] alextheentreprenerd
+I bet 1 high here is gonna be at least 5k+, worth digging
+
+{Reactions}
+4739_Skeletor (3) 💯 (3) 💰 (3) 🤑 (3) 💸 (5) 
+
+[09/20/2022 7:52 PM] ladboy233
+Well. there are i++ in the code base.
+
+
+[09/20/2022 7:52 PM] ladboy233
+guarenteed payout 🙂
+
+
+[09/20/2022 8:10 PM] 3asyp3asy
+I am new here but is reporting i++ really pays? I did not even bother reporting it at the end of a previous project, was it a mistake? 😄
+
+
+[09/20/2022 8:14 PM] liveactionllamac4
+Hey wardens! 👋 Probably better to move conversations like this over to the #🐺wardens channel - just so we can keep this channel focused on true questions specific to this contest. 🙂
+
+{Reactions}
+💯 (6) ✅ (5) 👆 (4) thankyou (4) 
+
+[09/20/2022 8:15 PM] 100proof
+Only if there's no dupes. Go for uniqueness wardens 🙂
+
+{Reactions}
+👍 (2) 
+
+[09/20/2022 9:10 PM] ladboy233
+How does the mint list works?
+
+
+[09/20/2022 9:54 PM] ladboy233
+why solmate
+
+
+[09/20/2022 9:54 PM] ladboy233
+why not openzeppelin?
+
+{Reactions}
+C4Keycap (3) 
+
+[09/20/2022 10:01 PM] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-92DBD.png
+
+
+[09/20/2022 10:01 PM] ladboy233
+lol
+
+
+[09/20/2022 10:02 PM] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-3D68A.png
+
+
+[09/20/2022 11:24 PM] frankieislost
+ser
+
+
+[09/20/2022 11:24 PM] frankieislost
+one of the devs literally wrote solmate
+
+{Reactions}
+😂 (27) 
+
+[09/20/2022 11:28 PM] t11s#0001
+😂
+
+{Reactions}
+😂 (2) 
+
+[09/20/2022 11:29 PM] rokinot
+lol
+
+
+[09/20/2022 11:36 PM] ladboy233
+How does the mint list work?
+
+
+[09/20/2022 11:36 PM] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-6749B.png
+
+
+[09/20/2022 11:37 PM] ladboy233
+is free mint refers creating the whitelisted address and set the Merkle tree root?
+
+
+[09/20/2022 11:57 PM] frankieislost
+yes, mint is free for addresses that are included in the mintlist
+
+
+[09/20/2022 11:59 PM] ladboy233
+ok
+
+
+[09/21/2022 5:47 AM] shr1ftyy
+eyo
+
+
+[09/21/2022 5:47 AM] shr1ftyy
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-D61F7.png
+
+
+[09/21/2022 5:47 AM] shr1ftyy
+hot 🔥
+
+
+[09/21/2022 9:11 AM] oridabush
+The README says that blank pages are rare. How can blank pages be created? Are those the community pages?
+
+
+[09/21/2022 9:13 AM] shr1ftyy
+https://github.com/code-423n4/2022-09-artgobblers/blob/main/src/Pages.sol#L195
+
+{Embed}
+https://github.com/code-423n4/2022-09-artgobblers/blob/main/src/Pages.sol
+2022-09-artgobblers/Pages.sol at main · code-423n4/2022-09-artgobbl...
+Contribute to code-423n4/2022-09-artgobblers development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/5022f711-35d1-4c38-b876-ae3e28a43864-BC0F3
+
+
+[09/21/2022 9:13 AM] shr1ftyy
+They can be minted with goo
+
+
+[09/21/2022 9:14 AM] oridabush
+So the minted pages are blank and then the users use the drawing tool to attach an art piece to it?
+
+{Reactions}
+👍 (2) 
+
+[09/21/2022 9:17 AM] shr1ftyy
+I think so, yes
+
+
+[09/21/2022 11:34 AM] oridabush
+@frankie @t11s Is there a place we can read more about the shuffling algorithm and its purpose?
+
+
+[09/21/2022 11:39 AM] oridabush
+From what I understand it chooses 2 ids every time, one is the next revealed id and the other one is the revealed id + random distance, and switches their idx which is their id if it is the first time they are chosen or the stored idx if they were already chosen. Every time this happens the swap index (which is the index of the current id) determines the multiplier of the gobbler. And the indexes are chosen only from the unrevealed gobblers to avoid overriding the multipliers.
+Is this correct?
+
+
+[09/21/2022 1:09 PM] codingnamekiki
+is it even possible to find high risk here 😭
+
+{Reactions}
+😂 (2) 
+
+[09/21/2022 2:18 PM] 0xnazgul
+@t11s When will the `"30x speed test net run (to be released soon)."` results be out?
+
+
+[09/21/2022 4:39 PM] _oceansky
+Just found out the authors are from paradigm, goodluck to us haha.  Anyways , there's no harm trying this. Let's see what we can do.😂
+
+{Reactions}
+😆 (3) 
+
+[09/21/2022 4:50 PM] immeas
+that doesn't make them immune to making mistakes, so go find them
+
+{Reactions}
+peepoeyes (5) 🧐 (5) 🫡 (7) 💯 (5) 💰 (3) 
+
+[09/21/2022 5:28 PM] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-CB0E9.png
+
+
+[09/21/2022 5:28 PM] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-C9E02.png
+
+
+[09/21/2022 5:29 PM] ladboy233
+you know. Age does not matter in crypto. Talent matters. I admire him.
+
+
+[09/21/2022 5:29 PM] ladboy233
+When I was a high school. I learned HTML and thought I know how to program.
+
+
+[09/21/2022 5:29 PM] ladboy233
+haha.
+
+
+[09/21/2022 5:29 PM] ladboy233
+but hey. THERE ARE VULNERABILITIES.
+
+
+[09/21/2022 5:30 PM] ladboy233
+i find for this one, it is easy to understand on high level what the smart contact is doing, but difficult to reason about the math behind it.
+
+
+[09/21/2022 5:30 PM] ladboy233
+so may take some time for me.
+
+
+[09/21/2022 5:30 PM] ladboy233
+let's do this 🙂
+
+{Reactions}
+👍🏻 
+
+[09/21/2022 6:01 PM] frankieislost
+that's correct!
+
+
+[09/21/2022 6:01 PM] frankieislost
+It's a fisher yates shuffle
+
+
+[09/21/2022 6:02 PM] frankieislost
+the purpose is to end up with a random permutation of ids (such that everyone has equal probability of getting any particular id)
+
+
+[09/21/2022 6:02 PM] frankieislost
+Strong agree!
+
+
+[09/21/2022 6:03 PM] oridabush
+Thanks 🙏🏽
+
+
+[09/21/2022 9:02 PM] jgcarv
+What does that syntax mean? I never seem something like that
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-89E2F.png
+
+
+[09/21/2022 9:14 PM] frankieislost
+what part is confusing?
+
+
+[09/21/2022 9:15 PM] frankieislost
+we've just added whitespace and comments in the return statement if that's what you mean
+
+
+[09/21/2022 9:19 PM] t11s#0001
+^^
+
+
+[09/21/2022 9:19 PM] t11s#0001
+if you get rid of the `//prettier-ignore` comment & format it
+
+
+[09/21/2022 9:19 PM] t11s#0001
+it will look more normal
+
+
+[09/21/2022 9:20 PM] aviggiano
+I hate it when the most interesting contests land in dates that I'm not available 🙃
+
+
+[09/21/2022 9:22 PM] jgcarv
+Oh daaamn. I was reading like a operator `return lastBalanceWad +;` and the rest being other execution path. That makes much more sense now
+
+{Reactions}
+👍 
+
+[09/21/2022 9:30 PM] t11s#0001
+aha yup can see how that could be confusing hehe
+
+
+[09/21/2022 10:26 PM] haruxe
+God - Art Gobblers has got to be one of the best documented and researched set of contracts I've seen, definitely gripping at every optimizor strat available haha
+
+{Reactions}
+hearteyesrobot 
+
+[09/21/2022 10:26 PM] haruxe
+good shit
+
+
+[09/21/2022 11:39 PM] aviggiano
+`forge test --ffi` returns `Encountered a total of 2 failing tests, 119 tests succeeded`
+
+is this expected? or am I doing something wrong
+
+
+[09/22/2022 12:05 AM] aviggiano
+Q: why chainlink VRF v1 and not v2?
+
+
+[09/22/2022 12:09 AM] _oceansky
+wow, you've got a high confidence right there mate, really inspirational! Probably you already found high risk v.👍🏻
+
+
+[09/22/2022 12:51 AM] frankieislost
+Instructions for running FFI tests are in the repo here: https://github.com/code-423n4/2022-09-artgobblers/tree/main/analysis#gobblers-analysis
+
+{Embed}
+https://github.com/code-423n4/2022-09-artgobblers/tree/main/analysis
+2022-09-artgobblers/analysis at main · code-423n4/2022-09-artgobblers
+Contribute to code-423n4/2022-09-artgobblers development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/5022f711-35d1-4c38-b876-ae3e28a43864-BC0F3
+
+{Reactions}
+👍 (2) 
+
+[09/22/2022 12:52 AM] frankieislost
+you have to first install the python requirements, and then run the command from the root directory
+
+
+[09/22/2022 12:53 AM] frankieislost
+We profiled the costs of chainlink v1 and v2, and found v1 to be cheaper. This is likely because under the v2 cost model, you have to pay for the gas used in verification and in the callback (which is subsidized in v1)
+
+{Reactions}
+👍 (2) 
+
+[09/22/2022 1:00 AM] aviggiano
+Question about the gamification, not really an issue:
+
+It seems like the `mintLegendaryGobbler` function takes an array of N standard gobblers, calculates the number M <= N of required gobblers that need to be burnt to generate a legendary gobbler and then burns the first M elements of the array. The newly created gobbler will have 2x the `emissionMultiple` of the burnt gobblers.
+
+This means that the order of the array changes the output (performance) of the legendary gobbler, so the user might (mistakenly) create a worse gobbler than what's possible by providing a suboptimal order of `gobblerIds`. 
+
+Is this analysis correct?
+
+
+[09/22/2022 1:06 AM] frankieislost
+That is correct, the function is not order invariant
+
+{Reactions}
+👍 (2) 
+
+[09/22/2022 1:36 AM] aviggiano
+Q: any reason to check only for `msg.sender` for NFT operations instead of also `getApproved`/ `isApprovedForAll` ? e.g. on function `gobble` of `ArtGobblers.sol`:
+
+```
+        // The caller must own the gobbler they're feeding.
+        if (owner != msg.sender) revert OwnerMismatch(owner);
+```
+
+I would expect this logic to be
+
+```
+if(owner != msg.sender || !isApprovedForAll(owner, msg.sender) || getApproved(tokenId) != msg.sender) revert OwnerMismatch(owner);
+```
+
+{Reactions}
+❤️ 🔥 💯 
+
+[09/22/2022 1:41 AM] frankieislost
+tat's an interesting question, I guess that does make sense given the semantics of `isApprovedForAll`
+
+{Reactions}
+🔥 (3) 
+
+[09/22/2022 11:24 AM] rustyrabbit
+Given the dramas we've already seen around approvals and the irreversible nature of `gobble()` I think it's a prudent approach although one that shuts out any NFT held by a SC wallet.
+
+
+[09/22/2022 11:29 AM] rustyrabbit
+What's the goal though about keeping track of which NFTs have been gobbled up by which Gobbler ? `getCopiesOfArtGobbledByGobbler` isn't used anywhere else.
+
+
+[09/22/2022 1:15 PM] pedr02b2
+thanks for the clarification i came here to ask basically the same question
+
+
+[09/22/2022 3:50 PM] johnnytime
+Never seen this Syntax before 👀
+After execution: 
+1) gobblerId = currentNonLegendaryId + 1?
+2) currentNonLegendaryId = currentNonLegendaryId + 1 
+
+Can someone please clarify?
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-93D50.png
+
+
+[09/22/2022 3:56 PM] t11s#0001
+correct
+
+{Reactions}
+❤️ 
+
+[09/22/2022 3:56 PM] 0x0f2130
+Is it just imcrementing the id after claim?
+
+
+[09/22/2022 3:59 PM] t11s#0001
+it increments the id, assigns gobblerId to the new incremented id and then uses that as a topic in the event
+
+{Reactions}
+✅ (3) 
+
+[09/22/2022 3:59 PM] t11s#0001
+that way we can return the new id, increment the state, and use it in an event all at the same time
+
+{Reactions}
+✅ (3) 
+
+[09/22/2022 4:00 PM] 0x0f2130
+Thats what i thought, its bundling it together all in one event
+
+
+[09/22/2022 4:00 PM] 0xsmartcontract
+events can do many things
+It can write to both transaction receipts and has the ability to write to states at the same time.
+
+```  
+ event GobblerClaimed(address indexed user, uint256 indexed gobblerId);
+```
+
+we wonder; What can events not do?
+
+{Reactions}
+chefskiss (5) hi5 (5) discoball (4) nice (4) 💯 (3) 4739_Skeletor 
+
+[09/22/2022 4:01 PM] johnnytime
+Love it, thanks!
+
+
+[09/22/2022 4:03 PM] codingnamekiki
+🦙
+
+
+[09/23/2022 10:24 AM] hakerbaya
+@kartoonjoy | C4 🎇🎇 submitted high risk issue, make sure to check it. 👍
+
+
+[09/23/2022 10:24 AM] codingnamekiki
+kartoonjoy is the new judge
+
+{Reactions}
+😆 
+
+[09/23/2022 10:24 AM] kartoonjoy
+Hello. What am I checking for?
+
+
+[09/23/2022 10:24 AM] codingnamekiki
+https://tenor.com/view/dk-nintendo-donkey-kong-gif-23203423
+
+{Embed}
+https://tenor.com/view/dk-nintendo-donkey-kong-gif-23203423
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/dk-nintendo-1331B.png
+
+
+[09/23/2022 10:25 AM] hakerbaya
+😅 don't know yet. I am new here.
+
+{Reactions}
+😂 (5) 
+
+[09/23/2022 10:25 AM] hakerbaya
+I submitted to art-gobblers contest.
+
+
+[09/23/2022 10:26 AM] kartoonjoy
+Ah ok. Welcome!
+
+
+[09/23/2022 10:27 AM] hakerbaya
+Lol 😅I checked now, you are an admin of the discord. 
+
+😅😅
+
+{Reactions}
+hi5 
+
+[09/23/2022 10:27 AM] codingnamekiki
+you submit the issues till the contest end time, and you wait for the results to come out. it usually takes like a month after the contest end date.
+
+{Reactions}
+🔥 
+
+[09/23/2022 10:28 AM] hakerbaya
+It only takes 1 day on immunefi to receive the reward 😅 and fix an issue.
+
+{Reactions}
+🦙 
+
+[09/23/2022 11:20 AM] ch_301
+https://discord.com/channels/810916927919620096/810936719003090974/1022504922383655043
+
+
+[09/23/2022 11:29 AM] hansfriese
+code4rena has its own advantage anyway. Very bad experience on Immunefi projects several times including today
+
+
+[09/23/2022 11:33 AM] hakerbaya
+Everything is upto projects . But yeah bug bounty programs should have strict rules for projects too.
+
+
+[09/23/2022 11:53 AM] PaludoX0#9748
+maybe I'm dumb but I can't find implementation of https://github.com/transmissions11/VRGDAs/blob/f4dec0611641e344339b2c78e5f733bba3b532e0/src/VRGDA.sol#L59,
+
+{Embed}
+https://github.com/transmissions11/VRGDAs/blob/f4dec0611641e344339b2c78e5f733bba3b532e0/src/VRGDA.sol
+VRGDAs/VRGDA.sol at f4dec0611641e344339b2c78e5f733bba3b532e0 · tran...
+Variable Rate Gradual Dutch Auctions. Contribute to transmissions11/VRGDAs development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/VRGDAs-23057
+
+
+[09/23/2022 12:04 PM] zzzitron
+lib/VRGDAs/src/LinearVRGDA.sol or lib/VRGDAs/src/LogisticVRGDA.sol or lib/VRGDAs/src/LogisticToLinearVRGDA.sol has overwritten the function
+
+
+[09/23/2022 12:09 PM] minh___
+no, it doesnt.
+
+
+[09/23/2022 12:18 PM] hakerbaya
+Some projects, not all. 👍
+
+
+[09/23/2022 12:51 PM] teawaterwire
+any idea what the `BASE_URI` for Pages and Gobblers will look like?
+
+
+[09/23/2022 12:52 PM] teawaterwire
+also it looks like a Gobbler can `gobble` any NFT, why not limiting it to Pages?
+
+
+[09/23/2022 2:13 PM] minh___
+what is this comment notation called, and what is its purpose? I found this to not play nicely with the jetbrains solidity plugin, so I would like to file an issue on github for it
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-06974.png
+
+
+[09/23/2022 2:34 PM] devtooligan
+i would call it Solmate style section header.  it also breaks with code folding on vscode
+
+{Reactions}
+👍 
+
+[09/23/2022 7:57 PM] lovethewired
+Def a medium+
+
+{Reactions}
+😅 (8) 
+
+[09/23/2022 8:25 PM] carrotsmuggler
+@t11s got a question, can i dm?
+
+
+[09/23/2022 8:27 PM] codingnamekiki
+sir his DMs are open
+
+{Reactions}
+👍 (2) 
+
+[09/23/2022 8:31 PM] t11s#0001
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-CEBF9.png
+
+{Reactions}
+😂 (25) Clap (10) chad_citadel (8) 👆 (5) 
+
+[09/24/2022 9:33 AM] thepicodes
+https://github.com/transmissions11/headers if you want to use them as well 😉
+
+{Embed}
+https://github.com/transmissions11/headers
+GitHub - transmissions11/headers: Generate perfect code headers eve...
+Generate perfect code headers every time. Contribute to transmissions11/headers development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/headers-F5233
+
+
+[09/24/2022 9:44 AM] minh___
+Definitely not 😅, I still dont see the point in introducing headers that break stuff without having any merit whatsoever
+
+{Reactions}
+👍 
+
+[09/24/2022 9:50 AM] codingnamekiki
+the point is, they look cool
+
+
+[09/24/2022 9:50 AM] codingnamekiki
+https://tenor.com/view/what-dog-funny-whats-up-sup-gif-20348971
+
+{Embed}
+https://tenor.com/view/what-dog-funny-whats-up-sup-gif-20348971
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/what-dog-82BD3.png
+
+
+[09/24/2022 9:55 AM] minh___
+to each their own, I guess
+
+
+[09/24/2022 9:57 AM] pfapostol
+It improves readability
+
+
+[09/24/2022 2:05 PM] elku.cryptos
+Possible to share the full solution to the differential equation here? dont have the pro account to see solution from here, https://www.wolframalpha.com/input?i=solve+s%27%28t%29+%3Dsqrt%28m+*+s%28t%29%29+%2C+s%280%29+%3D+z.
+
+
+[09/24/2022 2:18 PM] carrotsmuggler
+divide both sides by sqrt(s), you get ds/sqrt(s) on the left, which equals 2sqrt(s) + C when integrated. right side has sqrt(m)  dt, which integrates to sqrt(m) t
+
+{Reactions}
+👍 (3) 
+
+[09/24/2022 2:29 PM] elku.cryptos
+great thx.
+
+
+[09/24/2022 6:24 PM] ladboy233
+in the ArtGobbler.t.sol
+
+
+[09/24/2022 6:24 PM] ladboy233
+there is a test case
+
+
+[09/24/2022 6:24 PM] ladboy233
+Test that legendary gobblers can be minted with slippage.
+
+
+[09/24/2022 6:24 PM] ladboy233
+what does slippage mean in the context of the art gobbler? Thanks
+
+
+[09/24/2022 6:24 PM] ladboy233
+@t11s @frankie
+
+
+[09/24/2022 6:30 PM] acegawd
+@t11s Have a question via DM.
+
+
+[09/24/2022 6:39 PM] horsefacts
+The cost of a legendary gobbler in terms of normal gobblers is determined by a dutch auction (the price starts high and decreases over time). That means the caller might provide more gobblers than required when they mint a legendary (since the price might decrease between when they submit the transaction and when it's actually executed). This test shows that if the caller provides extra gobblers in that situation, the extra tokens are not burned.
+
+{Reactions}
+👍 (5) 
+
+[09/24/2022 6:43 PM] ladboy233
+This is clear. Thank you!
+
+{Reactions}
+👍 (2) 
+
+[09/24/2022 7:15 PM] frankieislost
+That's right, thanks!
+
+
+[09/24/2022 8:03 PM] ladboy233
+A fruitful bug hunting afternoon
+
+
+[09/24/2022 8:03 PM] ladboy233
+time to submit my report
+
+{Reactions}
+💸 (13) 👏 (8) 
+
+[09/24/2022 9:32 PM] Franfran#5067
+Happy to learn it
+
+
+[09/25/2022 12:17 PM] rustyrabbit
+@frankie sent friendrequest & DM
+
+
+[09/26/2022 2:15 AM] 0xRobocop#3994
+Hi guys, this was my first contest. Nice experience, everything in the code was well explained @frankie, @t11s
+
+
+[09/26/2022 2:57 AM] penguin4238
+actually, i have to say that the code itself is really like an art
+
+{Reactions}
+🔥 (11) 
+
+[09/26/2022 7:05 AM] codingnamekiki
+https://prnt.sc/lqdym8sjGqFm
+
+{Embed}
+https://prnt.sc/lqdym8sjGqFm
+Screenshot
+Captured with Lightshot
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/c9WaO8rRRgWFoX36gI-AQw-41CC2.png
+
+
+[09/26/2022 7:05 AM] codingnamekiki
+https://tenor.com/view/side-eye-dog-suspicious-look-suspicious-doubt-dog-doubt-gif-23680990
+
+{Embed}
+https://tenor.com/view/side-eye-dog-suspicious-look-suspicious-doubt-dog-doubt-gif-23680990
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/side-eye-dog-suspicious-look-9D8F2.png
+
+{Reactions}
+😂 (6) 
+
+[09/26/2022 7:19 AM] pfapostol
+The same for minted
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-4EE1B.png
+
+
+[09/26/2022 7:20 AM] codingnamekiki
+the number is kinda sus
+
+
+[09/26/2022 7:25 AM] pfapostol
+Just a handy place to start.
+
+
+[09/26/2022 7:26 AM] pfapostol
+I mean the graph of the function
+
+
+[09/26/2022 8:11 AM] teawaterwire
+still curious about that 🙃
+
+
+[09/26/2022 8:31 AM] rustyrabbit
+Why would you limit it to pages ? This is more interesting.
+
+
+[09/26/2022 8:34 AM] zzykxx
+the code does nothing with the gobbled NFTs, which means it will be up to external/extension projects to deal with those. This external projects can opt in to only consider gobbled pages, which makes me believe that limiting it doesn't make sense
+
+
+[09/26/2022 10:31 AM] cryptphi
+Good morning...any sponsor online I can DM for a clarification?
+
+
+[09/26/2022 11:53 AM] devabdee
+Thinking about opening an issue "Use OpenZepplin libs" 👀
+
+
+[09/26/2022 11:53 AM] devabdee
+Jk 😂🤙🏻
+
+Man I have to say, these contracts are the best contracts I've ever read. I have saved the files, gonna use these contracts to upgrade & polish my skills.
+
+{Reactions}
+❤️ 
+
+[09/26/2022 12:00 PM] zhuxket
+Solmate is also a great project. and t11s is the author of solmate
+
+{Reactions}
+🔥 ❤️ 
+
+[09/26/2022 1:22 PM] ladboy233
+Yes. the contract overrall is well written and a lot of edge case is taken care of.
+
+
+[09/26/2022 1:23 PM] ladboy233
+the well written test case make it easy to play with it and do weird stuff.
+
+
+[09/26/2022 1:23 PM] ladboy233
+:4739_Skeletor:
+
+{Reactions}
+4739_Skeletor (2) 
+
+[09/26/2022 8:35 PM] philogy
+I have never used the word "gobble" / "gobblers" so much in my life 😂
+
+{Reactions}
+same (5) 😂 (4) 
+
+[09/27/2022 11:36 AM] penguin4238
+the competition ending soon, but i  report nothing, sad
+
+
+[09/27/2022 12:14 PM] devabdee
+No need to sad bro, one day you are going to point out high Vulnerabilities (InShaaAllah). Just keep learning 🤙🏻
+
+
+[09/27/2022 12:37 PM] codingnamekiki
+no luck here as well, l am still trying to find Frankie https://prnt.sc/ojEWrMa0QnLR
+
+{Embed}
+https://prnt.sc/ojEWrMa0QnLR
+Screenshot
+Captured with Lightshot
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/iLHMsINWTZ6R7vqpUk_X-w-8D0F9.png
+
+{Reactions}
+😂 
+
+[09/27/2022 1:30 PM] ladboy233
+https://twitter.com/Xc1008Cui/status/1574750706418032640
+
+{Embed}
+ladboy233 (@Xc1008Cui)
+https://twitter.com/Xc1008Cui/status/1574750706418032640
+When I am doing the code4rena contest, I came across this cool NFT project @artgobblers backed by paradigm. To get a spot in the whitelist free mint, I open source two GitHub repo: a subgraph indexer and a web app that feeds NFT into the art gobbler.
+
+https://t.co/XxhWwnJg65
+Twitter
+
+{Reactions}
+👍 (2) 
+
+[09/27/2022 1:31 PM] ladboy233
+I opened a source a subgraph indexer for art gobbler to index the gobbled NFT and a web app to let user feed their NFT into their art gobbler.
+
+
+[09/27/2022 1:31 PM] ladboy233
+https://www.youtube.com/watch?v=wXQ2yJ8UBXc&t=15s
+
+{Embed}
+Crypto Jeff
+https://www.youtube.com/watch?v=wXQ2yJ8UBXc&start=15
+Art Gobbler Indexer and Gobbler Feeder on the testnet
+When I am doing the code4rena auditing contest,
+I came across this very cool NFT project called art gobbler.
+
+I built an art gobbler indexer to index the gobble event when an NFT is fed into the art gobbler via the function gobble
+
+I also built a web app to let users import an NFT and feed the NFT into their art gobbler!
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/maxresdefault-B83AE.jpg
+
+
+[09/27/2022 1:31 PM] ladboy233
+The subgraph graphql api is here
+
+
+[09/27/2022 1:31 PM] ladboy233
+https://thegraph.com/studio/subgraph/art-gobbler-indexer/
+
+{Embed}
+https://thegraph.com/studio/subgraph/art-gobbler-indexer/
+Subgraph Studio
+Use the Subgraph Studio to test, deploy, and publish your subgraphs to the decentralized network.
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/subgraph-studio-882CB.jpg
+
+
+[09/27/2022 1:31 PM] ladboy233
+the webapp is here
+
+
+[09/27/2022 1:32 PM] ladboy233
+https://gobbles-cb8af.web.app/
+
+{Embed}
+https://gobbles-cb8af.web.app/
+Gobbles
+A next generation social to earn web3 platform
+
+
+[09/27/2022 1:32 PM] ladboy233
+the mock contract is deployed on rinkeby.
+
+
+[09/27/2022 1:32 PM] ladboy233
+@t11s @frankie
+
+
+[09/27/2022 1:32 PM] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-764EE.png
+
+
+[09/27/2022 1:32 PM] ladboy233
+btw
+
+
+[09/27/2022 1:34 PM] ladboy233
+I think emitting is the gobbled NFT is ERC721 or ERC1155 in the event would make the indexer easier.
+
+
+[09/27/2022 1:34 PM] ladboy233
+```
+  emit ArtGobbled(msg.sender, gobblerId, nft, id, isERC1155);
+```
+
+
+[09/27/2022 1:48 PM] zzykxx
+i don't wanna be that guy, but this is not the place to spam
+
+{Reactions}
+☝️ (12) 🫂 (2) 
+
+[09/27/2022 1:54 PM] ladboy233
+https://twitter.com/cmichelio/status/1574447743023587329 I never spam people sir 🙂
+
+{Embed}
+Christoph Michel (@cmichelio)
+https://twitter.com/cmichelio/status/1574447743023587329
+My contribution to @artgobblers is GooStew: The protocol optimizes goo production for its users through collaboration.
+Users deposit gobblers and/or goo and receive more goo than they would have received on their own through goo inflation. https://t.co/KXYFC91gIm
+Twitter
+
+{Reactions}
+🧐 (2) 
+
+[09/27/2022 2:04 PM] cryptphi
+i'm tapping out....
+
+
+[09/27/2022 3:06 PM] _oceansky
+This project is highly experimental. Definitely there should be high vulnerability, unfortunately i'm not yet on that level. 
+I guess if you reached that 'level' , you must have a very wild imagination and creativity, not only high in technical skills.
+
+{Reactions}
+☝️ (3) 👍 (3) 
+
+[09/27/2022 3:36 PM] codingnamekiki
+hope my imagination is good enough to be a high risk
+
+
+[09/27/2022 3:38 PM] kartoonjoy
+@🐺wardens, reminder that this contest closes in about 20 mins!
+
+{Reactions}
+thankyou (7) keanuthanks (5) 
+
+[09/27/2022 3:39 PM] ak19966
+i am wondering about the special treatment for this contest !!!!!
+
+
+[09/27/2022 3:47 PM] sm4rty_
+Maybe because, time is different from the usual contests...
+
+{Reactions}
+👆 (2) 💯 
+
+[09/27/2022 3:54 PM] philogy
+Special treatment?
+
+
+[09/27/2022 3:54 PM] _0xstan
+We've just made a gobblers pool called VoltronGobblers, it can formed gobblers together, and there will be stronger ones.
+https://twitter.com/0xMC_com/status/1574766649802371073
+
+here is the code:
+
+{Embed}
+0xMC (@0xMC_com)
+https://twitter.com/0xMC_com/status/1574766649802371073
+#GobblersPool #GobblersTogether
+@artgobblers Gobblers holders with weights 6,7,8 cannot afford new Gobblers even long after minting has started!!! Here is the reason and codes ：https://t.co/BWnjx4Xpaf @0xstan_ @paco0x
+Twitter
+
+
+[09/27/2022 3:58 PM] _0xstan
+https://github.com/0x-stan/voltron-gobblers
+
+{Embed}
+https://github.com/0x-stan/voltron-gobblers
+GitHub - 0x-stan/voltron-gobblers: gobblers-transformer
+gobblers-transformer. Contribute to 0x-stan/voltron-gobblers development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/voltron-gobblers-620BF
+
+
+[09/27/2022 3:59 PM] _0xstan
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/unknown-DED10.png
+
+
+[09/27/2022 4:02 PM] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **Art Gobblers** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+hi5 (19) 👏 (6) 
+
+[09/27/2022 4:13 PM] frankieislost
+Thank you to all the wardens that participated, we really appreciate all your work, and hope your bug hunting was fruitful 🙏
+
+{Reactions}
+CatJam (22) hearteyesrobot (6) 👍🏾 (7) 🇦 (5) 🇷 (5) 🇹 (5) ☝️ (2) 🎉 (2) 
+
+[09/27/2022 4:19 PM] zachobront
+We love the goo!
+
+{Reactions}
+hearteyesrobot C4Keycap 
+
+[09/27/2022 4:24 PM] ladboy233
+:hi5:
+
+
+[09/27/2022 4:38 PM] philogy
+Gobble on!
+Side note, shouldn't you be hoping that our hunt was not successful 😄
+
+
+[09/27/2022 4:41 PM] codingnamekiki
+if there is even a chance, that the code can be improved. Why they shouldn't be happy about that sir.
+
+{Reactions}
+☝️ (3) 
+
+[09/27/2022 4:42 PM] ladboy233
+question
+
+
+[09/27/2022 4:42 PM] philogy
+tru, but I mean in terms of finding vulnerabilities
+
+{Reactions}
+🦙 (2) 
+
+[09/27/2022 4:43 PM] ladboy233
+https://github.com/artgobblers/art-gobblers/issues/145
+
+{Embed}
+https://github.com/artgobblers/art-gobblers/issues/145
+♻️ Left shift could be replaced by mul · Issue #145 · artgobblers/a...
+art-gobblers/src/ArtGobblers.sol Line 844 in c821b6d uint256 newNumMintedForReserves = numMintedForReserves += (numGobblersEach << 1);
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/145-94E3F
+
+
+[09/27/2022 4:43 PM] ladboy233
+why mul is better than left shift?
+
+
+[09/27/2022 4:43 PM] ladboy233
+Only for readability, that's it right?
+
+
+[09/27/2022 4:46 PM] czar102
+How? shift is 3 gas and mul 5
+
+{Reactions}
+👍 
+
+[09/27/2022 4:49 PM] codingnamekiki
+nvm my bad
+
+
+[09/27/2022 5:40 PM] rustyrabbit
+I hope we don't have to wait too long for the results.
+
+{Reactions}
+❤️ (3) 
+
+[09/27/2022 7:39 PM] pedr02b2
+Method    Time
+Div: i / 4    358
+Div: i >> 2    224
+Mul: i * 4    206
+Mul: i << 2    255
+Mod: i % 4    918
+Mod: i & 3    254 mul is a quicker computational wise than bitwise shift
+
+
+[09/27/2022 8:26 PM] t11s#0001
+solc optimizes it into a shift already
+
+{Reactions}
+catVibrate 
+
+[09/27/2022 8:27 PM] czar102
+Woow, solc is funny - optimizes cool things but produces a ton of bloat
+
+
+[09/27/2022 10:11 PM] philogy
+Really? There was this one spot in the code where forge snapshot diff showed an improvement in gas usage
+
+
+[09/28/2022 12:46 AM] penguin4238
+yeah thanks bro, but still feel fun lol
+
+{Reactions}
+🤩 
+
+[09/28/2022 1:15 AM] _oceansky
+Let's hope for the best, as what Einstein have said, "Imagination is more important than knowledge"
+
+
+[09/28/2022 2:36 AM] t11s#0001
+yeahhh its weird it doesnt seem to do it *always*
+
+
+[09/28/2022 2:36 AM] t11s#0001
+but at least in that case it seemed to show an improvement
+
+
+[09/28/2022 7:35 AM] philogy
+Solidity compiler really needs some major work, next piece of foundry maybe? Custom, built from scratch solidity compiler 👀
+
+{Reactions}
+🗿 
+
+[09/28/2022 7:44 AM] foobar#0001
+No kidding, proposal for the gas optimizooors to pour 1% of their time into solc instead of unrolling forloops 🙂
+
+{Reactions}
+😂 
+
+[09/28/2022 7:46 AM] philogy
+True, maybe we should organize some gitcoin grants or smth, not sure who's funding / developing solc atm
+
+{Reactions}
+👍 
+
+[09/28/2022 4:47 PM] Franfran#5067
+Isn't it ethereum foundation ?
+
+
+[09/28/2022 4:51 PM] haruxe
+:GIGACHAD: its us now. solc 1.0 developed by the optimizor hivemind
+
+{Reactions}
+🗿 (4) 
+
+[09/28/2022 4:52 PM] Franfran#5067
+just rewrite it in rust right 🗿
+
+
+[09/28/2022 4:53 PM] Franfran#5067
+and call it solar
+
+
+[09/28/2022 4:53 PM] haruxe
+im rewriting it in html rn :EzPepe: should do the trick
+
+{Reactions}
+🗿 (4) 
+
+[09/29/2022 6:29 PM] ladboy233
+https://github.com/artgobblers/art-gobblers/issues/150
+
+{Embed}
+https://github.com/artgobblers/art-gobblers/issues/150
+🐛 VRGDA breaks at 1731 and cannot be recovered with time? · Issue #...
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/150-55DCD
+
+
+[09/29/2022 6:29 PM] ladboy233
+honestly I submit this finding as a high vulernability in the report.
+
+
+[09/29/2022 6:30 PM] ladboy233
+I just locate where the code breaks. but I am sure that are auditor smarter than me can figure out why it breaks...
+
+
+[09/29/2022 6:30 PM] ladboy233
+I will look into it my self. just out of curiosity
+
+
+[09/29/2022 6:33 PM] ladboy233
+🧐
+
+
+[09/30/2022 11:42 AM] shr1ftyy
+interesting, can u elaborate? where was this vuln?
+
+
+[10/01/2022 4:59 PM] philogy
+Would this even count considering it was already public? Also don't get the issue, the VRGDA breaks, how?
+
+
+[10/01/2022 5:00 PM] minh___
+it wasnt, it was opened after thecontest ended
+
+
+[10/01/2022 5:00 PM] philogy
+Oh
+
+
+[10/01/2022 5:21 PM] ladboy233
+well for that will leave it to judges. finger crossed for the report. :4739_Skeletor:
+
+
+[10/01/2022 5:25 PM] philogy
+But what does the bug mean exactly? VRGDA pricing breaks once 1731 Gobblers have been minted or on day 1731? Would be interested to understand it better
+
+
+[10/01/2022 5:31 PM] ladboy233
+my hope is high this counts because the issue opens after contest end. my report includes this one before the contest end
+
+
+[10/01/2022 5:31 PM] ladboy233
+all I know is if we mint 3000 nft or 5000 nft at once
+
+
+[10/01/2022 5:31 PM] ladboy233
+it break at 1731th
+
+
+[10/01/2022 5:31 PM] ladboy233
+I do not know why either ；）
+
+
+[10/01/2022 5:32 PM] ladboy233
+yeah I am sure someone will figure it out why
+
+
+[10/01/2022 5:32 PM] ladboy233
+also looking forward to it
+
+
+[10/01/2022 5:33 PM] ladboy233
+for that opened issue I think someone also discovered it independently
+
+
+[10/01/2022 5:57 PM] philogy
+Can you even mint 3000 at once due to the exponential pricing?
+
+{Reactions}
+thisisfine 
+
+[10/01/2022 6:02 PM] codingnamekiki
+pov: you are elon musk
+
+{Reactions}
+😂 
+
+[10/01/2022 6:06 PM] pfapostol
+I also discovered it, but did not report because the price was almost impossible. it will be sad if the judges consider this as high or medium.
+
+{Reactions}
+💯 
+
+[10/01/2022 6:49 PM] ladboy233
+well. let judge decide
+
+
+[10/01/2022 6:50 PM] ladboy233
+I have same feeling a lot of times
+
+
+[10/01/2022 6:52 PM] ladboy233
+I was reading report and one report said
+
+
+[10/01/2022 6:52 PM] ladboy233
+downcast from uint256 to uint128 is not safe
+
+
+[10/01/2022 6:55 PM] ladboy233
+I am like，is there nft that have more than uint 128 token id
+
+
+[10/01/2022 6:55 PM] ladboy233
+haha
+
+
+[10/03/2022 4:43 AM] aga7hokakological
+wow crazy. I was trying to find how can I run a simulation to check this thing. But as t11s said they'll release it afterwards.
+
+
+[10/03/2022 6:12 AM] pfapostol
+you can easily check it with tests.
+
+
+[10/03/2022 6:51 AM] aga7hokakological
+I see. but I was unable to understand that. Do you have test file. I can check what I was missing
+
+
+[10/03/2022 6:53 AM] pfapostol
+yes, I have, but I'm not sure if we are allowed to share PoC before the vulnerability is fixed, or at least the report is released
+
+
+[10/03/2022 7:06 AM] aga7hokakological
+Ohh yeah. I see. Then can you share it after release of the report. Surely it'll be release soon
+
+
+[10/15/2022 7:39 AM] .yasiransari
+Hey, how long does it usually take to close the contest?
+
+
+[10/15/2022 10:59 AM] 0xsorrynotsorry
+Depends on the contest. If there are many submissions, sponsor would like to have more time to review the mitigations, it might be announced like in one month or even sometimes it requires more time.
+
+{Reactions}
+👍 
+
+[10/15/2022 11:03 AM] .yasiransari
+Thank you for the information
+
+{Reactions}
+hi5 
+
+[10/16/2022 7:22 AM] zzykxx
+The gobblers minting date has be announced to be the 31/10, we might probably know something around that time
+
+{Reactions}
+👍 (3) 
+
+[10/16/2022 7:31 AM] .yasiransari
+Thank you for the information
+
+
+[10/16/2022 4:25 PM] alextheentreprenerd
+Sending to Triage tomorrow
+
+{Reactions}
+PU_PepeBoom (7) 
+
+[10/16/2022 9:46 PM] philogy
+What does that mean exactly? Sending the list of de-duplicated and re-classified issues to the sponsors?
+
+
+[10/16/2022 9:54 PM] alextheentreprenerd
+Backstage role Warden have 3 days to re-view for my mistakes in judging, after that we can fix any judging mistake and we can award
+
+{Reactions}
+👀 (2) 
+
+[10/16/2022 10:03 PM] philogy
+Ah ok, very nice 👌 
+Glad to see it's working out so much faster than some of the other contests
+
+{Reactions}
+banhammer (4) 
+
+[10/17/2022 1:13 AM] ladboy233
+Yes looking forward to this one 🙂
+
+
+[10/21/2022 10:08 AM] philogy
+soooo, wen 👀
+
+
+[10/21/2022 11:55 AM] cloudellie
+This one is currently going through post-judging QA.
+
+{Reactions}
+🙌 (5) 👀 (4) 4739_Skeletor (4) hi5 (2) C4Keycap (2) 
+
+[10/23/2022 2:27 PM] philogy
+By the look of the commits on the main repos (artgobblers, goo-issuance, solmate) looks like there was only 1 high issue 🤑
+
+{Reactions}
+👀 
+
+[10/23/2022 2:59 PM] ch_301
+is it still on post-judging QA
+
+
+[10/23/2022 3:02 PM] philogy
+Looks like it 🤷‍♂️ 
+I assume after post-judging there's a short period where they actually calculate the awards but that's probably very fast <1 day so we probably won't know
+
+
+[10/23/2022 3:03 PM] philogy
+1 month turn around still possible 👀
+
+
+[10/26/2022 1:06 PM] alextheentreprenerd
+We changed the rules mid contest so had some back and fort I sent to awarding yesterday, matter of days
+
+
+[10/26/2022 1:06 PM] alextheentreprenerd
+I closed QAs below 5, from next contest onwards bar will be way higher per new rules
+
+
+[10/26/2022 1:21 PM] zzykxx
+what does this mean?
+
+
+[10/26/2022 1:27 PM] neko_nyaa
+QA scoring below 5 won't be counted for rewards
+
+
+[10/26/2022 1:35 PM] philogy
+Ah ok, yeah I was wondering since you originally said just a few days, appreciate the update 👍
+
+
+[10/26/2022 1:49 PM] alextheentreprenerd
+In the future the threshold will be higher, am thinking 60/100 but will fine-tune on a per contest basis
+
+{Reactions}
+👍 
+
+[10/26/2022 2:10 PM] Noah3o6#2496
+How much were QA‘s under 5 normally rewarded in average?
+
+{Reactions}
+🤷‍♂️ 
+
+[10/26/2022 4:15 PM] pfapostol
+Can we expect the same limit for gas reports?
+
+
+[10/26/2022 4:26 PM] alextheentreprenerd
+Yeah, you need a big gas saving, or it probably won't cut it in the future
+
+
+[10/26/2022 4:49 PM] pfapostol
+Cool! it's too bad it didn't happen earlier, I'd be way richer)
+
+{Reactions}
+🙏 
+
+[10/26/2022 5:45 PM] philogy
+Interesting I thought the threshholds were about report quality not necessarily content but I guess they are related
+
+
+[10/26/2022 6:03 PM] zzykxx
+quality relates to content as well, at least in this context
+
+
+[10/28/2022 1:35 PM] ladboy233
+What's up with art gobbler?
+
+
+[10/28/2022 1:35 PM] ladboy233
+:C4Keycap:
+
+
+[10/28/2022 1:36 PM] alextheentreprenerd
+Done
+
+{Reactions}
+❤️ (13) 👀 (10) hearteyesrobot 
+
+[10/29/2022 6:46 PM] philogy
+I thought 'done' 🫠 
+Or did you just mean the post-judging QA?
+
+
+[11/03/2022 8:35 AM] zzykxx
+Any news on this? I need to check how bad of a money maker I am after deciding to focus on the audit instead of getting WL spot lmao
+
+{Reactions}
+🥲 (2) 
+
+[11/03/2022 11:36 AM] cloudellie
+We’re very close to announcing awards; our developers have been updating our award calculation scripts to play nicely with the new scoring mechanism. Thanks for your patience!
+
+{Reactions}
+hi5 (4) C4Keycap (5) PU_PepeBoom (4) 🙏 (3) 
+
+[11/03/2022 4:20 PM] wastewa
+Isnt the final payout mechanism unchanged for this competition? Seems like it has been delayed for things that wont change the payout 🙈🙈🙈
+
+
+[11/03/2022 4:26 PM] pfapostol
+https://discordapp.com/channels/810916927919620096/1021427553900175411/1034815345652940811
+
+
+[11/03/2022 4:30 PM] wastewa
+Fair enuf. That doesn’t seem hard to change in code tho. 🙈 
+
+Sorry, just a little frustrated with the speed of payout on this one (vs) actual changes to payout system for this competition.
+
+
+[11/05/2022 1:53 PM] ladboy233
+🧐
+
+{Reactions}
+👀 (7) 
+
+[11/10/2022 5:09 PM] TurnipBoy#5973
+Y'all were impatient and now C4 put us all in timeout
+
+{Reactions}
+😂 (9) 
+
+[11/10/2022 5:54 PM] pfapostol
+considering how many new contests and how many new wardens and the fact that it's been 2 weeks without any contest results. I think there's been a traffic "contest" jam.
+
+{Reactions}
+☝️ (3) 
+
+[11/13/2022 9:31 PM] ladboy233
+:C4Keycap:
+
+{Reactions}
+🥲 (6) 
+
+[11/16/2022 6:17 AM] matin6517
+👀
+
+{Reactions}
+👀 (18) thisisfine (9) APE (4) 
+
+[11/17/2022 7:43 PM] wastewa
+This delay is getting ridiculous 😅
+
+
+[11/17/2022 7:44 PM] wastewa
+Delayed for something that will not materially impact awarding for this competition
+
+{Reactions}
+💯 thisisfine 
+
+[11/17/2022 7:44 PM] wastewa
+P frustrating
+
+
+[11/17/2022 8:32 PM] carlitox477
+I agree, I guess c4 should do something like sherlock, where medium and high are rewarded. Or maybe a middle solution. Awards for medium and high are priority, so when they are judged there is a first release for awards; then gas (it seems easier to judge than QA, maybe I am wrong) and finally QA
+
+
+[11/17/2022 8:33 PM] carlitox477
+What's more, after medium and high are awarded, wardens/masons can help to write the report for those vulnerabilities. Warden/masons will learn a lot, and I think judges will have less job doing this
+
+
+[11/17/2022 8:35 PM] carlitox477
+Just a suggestion, I consider myself in a junior level, maybe I don't know what I'm talking about lol. All my respect for judges and sponsors
+
+
+[11/18/2022 5:46 AM] shung69
+gobble gobble
+
+{Reactions}
+😂 (3) 
+
+[11/18/2022 2:46 PM] 0x4non
+I feel gobbled
+
+
+[11/21/2022 8:18 AM] TurnipBoy#5973
+At this point we're so close, let's just push through the rest of November and shoot for December 1st #NoAwardNovember
+
+{Reactions}
+😂 (11) 👎 (3) 👍 
+
+[11/21/2022 11:43 AM] zzykxx
+guys cmon, c4 already made it clear that they had troubles with payouts because some management mistakes were made
+
+
+[11/21/2022 11:43 AM] zzykxx
+given that, there's no point in complaining
+
+
+[11/21/2022 11:45 AM] philogy
+Yeah exactly, I'm annoyed too but complaining unnecessarily stresses out those who are actually working on it and does nothing to actually speed up the process
+
+
+[11/21/2022 11:55 AM] ladboy233
+🥲
+
+
+[11/21/2022 12:24 PM] bit.surfer
+is this info shared for certified warden only channel? because I can't find it on announcement channel
+
+
+[11/21/2022 12:27 PM] c3phas.
+https://discord.com/channels/810916927919620096/810916927919620099/1042654011922337802
+
+{Reactions}
+🙏 (2) 
+
+[11/21/2022 7:23 PM] itsmetechjay
+🤑 🎉 Awards for **Art Gobblers**: 
+
+$9,175.91 USDC » @IllIllI 
+$8,715.28 USDC » @minhtrng 
+$7,358.50 USDC » @rbserver 
+$6,785.46 USDC » @0xSmartContract 
+$5,520.95 USDC » @wagmi 
+$5,299.90 USDC » @zzykxx 
+$3,942.29 USDC » @Roman 
+$3,651.58 USDC » @Philogy 
+$3,540.59 USDC » CertoraInc (@egjlmn1, @Ori Dabush, @shakedwinder, @RoiEvenHaim, @ItayG)
+$2,830.23 USDC » @0x52 
+$2,830.23 USDC » @arcoun 
+$2,830.23 USDC » @RaymondFam 
+$2,383.76 USDC » @bin2chen 
+$2,383.76 USDC » @hansfriese 
+$1,913.40 USDC » @cccz 
+$1,913.40 USDC » @ladboy233小伙子 
+$1,913.40 USDC » @m9800 
+$1,913.40 USDC » @Pedroais 
+$1,913.40 USDC » @ronnyx2017 
+$1,858.21 USDC » @auditor0517 
+$1,858.21 USDC » @hyh 
+$1,858.21 USDC » KIntern_NA (@TrungOre, @duc)
+$1,858.21 USDC » @Thunder 
+$1,858.21 USDC » @wastewa 
+$930.57 USDC » @__141345__ 
+$930.57 USDC » @Deivitto 
+$930.57 USDC » @ReyAdmirado 
+$696.90 USDC » @Ch_301 
+$696.90 USDC » @csanuragjain 
+$594.22 USDC » @shung🌞🌈 
+$525.56 USDC » @8olidity 
+$525.56 USDC » @Bernd 
+$525.56 USDC » @++devtooligan 
+$525.56 USDC » @obront 
+$525.56 USDC » tonisives
+$525.56 USDC » zkhorse (@karmacoma, @horsefacts)
+$470.36 USDC » @bytehat 
+$470.36 USDC » @imare 
+$470.36 USDC » @zdhu 
+$123.86 USDC » @0x1f8b 
+$123.86 USDC » @0xNazgul 
+$123.86 USDC » @aviggiano 
+$123.86 USDC » @catchup 
+$123.86 USDC » @djxploit 
+$123.86 USDC » @pfapostol 
+$123.86 USDC » @Tadashi 
+$123.86 USDC » V_B (@Barichek, vald_bochok)
+$123.86 USDC » @ElKu 
+$68.66 USDC » @Atarpara 
+$68.66 USDC » @Deathstore 
+$68.66 USDC » @gogo 
+$68.66 USDC » @MiloTruck 
+$68.66 USDC » @SnowMan 
+$55.20 USDC » @anon 
+$55.20 USDC » @0x5rings 
+$55.20 USDC » @0xdeadbeef 
+$55.20 USDC » @0xRobocop 
+$55.20 USDC » @a12jmx 
+$55.20 USDC » @Sloth 
+$55.20 USDC » @code-cipher 
+$55.20 USDC » @B2
+$55.20 USDC » @B353N (33.3%) 
+$55.20 USDC » @bharg4v 
+$55.20 USDC » @brgltd 
+$55.20 USDC » @bulej93 
+$55.20 USDC » @c3phas 
+$55.20 USDC » @ch0bu 
+$55.20 USDC » @CodingNameKiki 
+$55.20 USDC » @cryptonue 
+$55.20 USDC » @cryptphi 
+$55.20 USDC » @delfin454000 
+$55.20 USDC » @durianSausage 
+$55.20 USDC » @eighty 
+$55.20 USDC » @EricTee 
+$55.20 USDC » @PENGUN 
+$55.20 USDC » @fatherOfBlocks 
+$55.20 USDC » @Funen 
+$55.20 USDC » @giovannidisiena 
+$55.20 USDC » @Ignacio 
+$55.20 USDC » @JC
+$55.20 USDC » @JohnnyTime 
+$55.20 USDC » @Kresh 
+$55.20 USDC » @lukris02 
+$55.20 USDC » @malinariy 
+$55.20 USDC » @martin11 
+$55.20 USDC » @Noah3o6 
+$55.20 USDC » @thinklab 
+$55.20 USDC » @pedr02b2 
+$55.20 USDC » @Prasant Gupta 
+$55.20 USDC » RockingMiles (@robee, @pants)
+
+{Reactions}
+hearteyesrobot (12) 4739_Skeletor (2) ✅ (3) 
+
+[11/21/2022 7:23 PM] itsmetechjay
+$55.20 USDC » @Rolezn 
+$55.20 USDC » @Rotcivegaf 
+$55.20 USDC » @rvierdiiev 
+$55.20 USDC » @sach1r0 
+$55.20 USDC » @simon135 
+$55.20 USDC » @Sm4rty 
+$55.20 USDC » @SuldaanBeegsi 
+$55.20 USDC » @tnevler 
+$55.20 USDC » @Tomio 
+$55.20 USDC » @TomJ 
+$55.20 USDC » @Waze 
+$55.20 USDC » @zzzitron 
+$55.20 USDC » @yixxas 
+$55.20 USDC » @0xsanson 
+$55.20 USDC » @ak1
+$55.20 USDC » @Amithuddar 
+$55.20 USDC » @Chom 
+$55.20 USDC » @joestakey 
+$55.20 USDC » @Throttle 
+
+🏁 Findings summary
+---------------------------
+High risk findings: 15 total, 1 unique
+Med risk findings: 25 total, 3 unique
+Gas optimization reports: 22 
+QA reports: 96
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸
+
+*Note: If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions *
+
+
+[11/21/2022 7:28 PM] ladboy233
+:4739_Skeletor:
+
+
+[11/21/2022 7:40 PM] JM217#0899
+🙄
+
+
+[11/21/2022 7:40 PM] JM217#0899
+2 months ? 🤣
+
+{Reactions}
+PU_PepeBanHammer (3) 
+
+[11/21/2022 8:20 PM] zzykxx
+more than I could ever expect at my 2nd audit
+
+{Reactions}
+hi5 (2) 👏 (2) 🔥 
+
+[11/21/2022 9:25 PM] rokinot
+excited to read the report on this one
+
+
+[11/21/2022 9:44 PM] raymondfam
+Fantastic. My very first medium bug report accepted.😋
+
+{Reactions}
+🎉 (4) hi5 (3) 
+
+[11/22/2022 1:22 AM] chaduke#3730
+@RaymondFamcongrats, happy for u!
+
+
+[11/22/2022 5:31 AM] Tomo | NinjAudit#7394
+Is this the same scope?
+https://github.com/spearbit/portfolio/blob/master/pdfs/ArtGobblers-Spearbit-Security-Review.pdf
+
+{Embed}
+https://github.com/spearbit/portfolio/blob/master/pdfs/ArtGobblers-Spearbit-Security-Review.pdf
+portfolio/ArtGobblers-Spearbit-Security-Review.pdf at master · spea...
+Contribute to spearbit/portfolio development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/portfolio-FF895
+
+
+[11/22/2022 8:52 AM] bnke0x0
+I don't see my name on the Awards List !? @Jay | C4
+
+
+[11/22/2022 8:53 AM] philogy
+Nope Spearbit audited a different version of the repo
+
+{Reactions}
+👍 
+
+[11/22/2022 9:49 AM] karanctf
+same mine too is not there in all three of these new reports 😢
+
+{Reactions}
+😳 
+
+[11/22/2022 10:31 AM] zzykxx
+"Note: If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions"
+
+{Reactions}
+☝️ 
+
+[11/22/2022 10:33 AM] pfapostol
+in most cases this indicates an invalid report.
+
+
+[11/22/2022 10:44 AM] bnke0x0
+I do
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/tempsnip-D03C7.png
+
+
+[11/22/2022 10:48 AM] bnke0x0
+if the High and Mid are not invalid, what about Gas and QA they absolutely valid !
+
+
+[11/22/2022 10:49 AM] bnke0x0
+You should open a help ticket
+code4rena.com/help
+
+
+[11/22/2022 11:04 AM] cryptostaker
+does the report utilize the new gas payouts? ie does ++i still work here?
+
+
+[11/22/2022 11:09 AM] pfapostol
+yes. no.
+
+
+[11/22/2022 11:51 AM] c3phas.
+It's not guaranteed that Gas/QA will be valid, Or could be valid but unsatisfactory under the judges metrics
+
+
+[11/22/2022 12:14 PM] cloudellie
+Yes, this is one of the most significant changes we made. "Unsatisfactory" reports are no longer awarded, regardless of whether they are technically valid. 
+
+Please refer to this post from October 14 that outlines all changes to grading/scoring and awarding: https://github.com/code-423n4/org/discussions/50
+
+{Embed}
+https://github.com/code-423n4/org/discussions/50
+Update to award formula, scoring, and contest rules · Discussion #5...
+In the interest of increasing the upper end payouts, significantly disincentivizing sybil attacks and homework sharing, and eliminating low-effort submissions as an acceptable part of C4, we are im...
+Code4rena - ARCHIVE-Q3-2022 - ☑art-gobblers-sept20 [1021427553900175411].txt_Files/50-21483
+
+
+[11/22/2022 2:56 PM] alextheentreprenerd
+I closed reports that scored below 5 / 100 for QA and Gas
+
+
+[11/22/2022 2:56 PM] alextheentreprenerd
+In new contests I close reports that score below 60
+
+
+[11/22/2022 3:00 PM] pfapostol
+Is there a new scoring system in findings.csv, or i am missing something? there are only `1`, `2`, `3`, but no old scores.
+
+
+[11/22/2022 3:03 PM] alextheentreprenerd
+I score each report  based on the number of findings, then based on the best rate the rest
+
+
+[11/22/2022 4:40 PM] rustyrabbit
+Will a report be released for this one ?
+
+
+[11/22/2022 4:42 PM] alextheentreprenerd
+100%, just needs time for the report to be created
+
+{Reactions}
+👍 
+
+[11/22/2022 7:42 PM] TurnipBoy#5973
+Noticed that some HM issues are scored as a 2 and seems there is only 1 of each issue scored. 2 indicates main issue?
+
+
+[11/22/2022 7:43 PM] TurnipBoy#5973
+Is 30% bonus for main implemented yet? In golom for solo mediums pie is 3.9 but slice is only 3
+
+
+[11/22/2022 7:43 PM] alextheentreprenerd
+No bonus on this contest, fwicr
+
+{Reactions}
+👍 
+
+[11/22/2022 7:43 PM] alextheentreprenerd
+As for math, tagging @CloudEllie | C4 as I'm not sure
+
+
+[11/22/2022 7:45 PM] TurnipBoy#5973
+Okay cool. Depending on which column is used to calc point denominator slice/pie could make a big difference
+
+
+[11/22/2022 7:45 PM] TurnipBoy#5973
+i.e. adding 3.9 points to denominator but only paying 3
+
+
+[11/22/2022 8:09 PM] TurnipBoy#5973
+Awards total to the full amount so no issues on that. Still curious about slice/pie though
+
+
+[11/22/2022 8:10 PM] alextheentreprenerd
+Has been flagged and Staff will update
+
+{Reactions}
+👍 
+
+[11/23/2022 12:43 AM] itsmetechjay
+Please note that the award announcement has been updated.  See this post in #🐺wardens for more info: https://discord.com/channels/810916927919620096/810936719003090974/1044690263429369866
+
+
+[11/24/2022 9:40 AM] gianganhnguyen#9407
+Can we see report comments? I submitted gas and QA report, don't see my name.
+
+
+==============================================================
+Exported 414 message(s)
+==============================================================
